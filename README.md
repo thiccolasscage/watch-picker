@@ -5,7 +5,7 @@ Public GitHub Pages host for the SFW Watch Picker: https://thiccolasscage.github
 Mood packs, random spin, "Because you liked…", My list (CSV import from IMDb / Letterboxd) and Seen. Where-to-watch badges come from a Watchmode US snapshot. Everything runs in the browser, with no API keys and no network calls besides TMDB poster images. Your Seen list and My list stay in your browser's localStorage.
 
 ## This is a copy
-The source lives in the private repo [thiccolasscage/its-popcorn-time](https://github.com/thiccolasscage/its-popcorn-time) under `docs/`. Edit it there, then copy these files over:
+The source lives in the private repo [thiccolasscage/its-popcorn-time](https://github.com/thiccolasscage/its-popcorn-time) under `docs/`. Edit it there. Its `Sync Watch Picker site` workflow copies these files over and pushes here on every merge that touches `docs/`:
 
 | here | from its-popcorn-time |
 |---|---|
