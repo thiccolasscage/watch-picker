@@ -1,0 +1,3228 @@
+[
+  {
+    "id": "the-bear",
+    "name": "The Bear",
+    "kind": "show",
+    "year": 2022,
+    "runtimeMin": 30,
+    "moods": [
+      "feel",
+      "brain",
+      "date"
+    ],
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "platforms": [
+      "Hulu",
+      "Disney+"
+    ],
+    "why": "Tight kitchen chaos with heart; one episode rarely feels like enough.",
+    "tmdbId": 136315,
+    "tmdbMediaType": "tv",
+    "imdbId": "tt14452776",
+    "tmdbTitle": "The Bear",
+    "tmdbDate": "2022-06-23",
+    "overview": "Carmy, a young fine-dining chef, comes home to Chicago to run his family sandwich shop. As he fights to transform the shop and himself, he works alongside a rough-around-the-edges crew that ultimately reveal themselves as his chosen family.",
+    "posterPath": "/eKfVzzEazSIjJMrw9ADa2x8ksLz.jpg",
+    "voteAverage": 8.2,
+    "genresTmdb": [
+      "Drama",
+      "Comedy"
+    ],
+    "seasonsTmdb": 5,
+    "traktIds": {
+      "imdb": "tt14452776",
+      "plex": {
+        "guid": "611f8407767ddf002cb05be2",
+        "slug": "the-bear"
+      },
+      "slug": "the-bear",
+      "tmdb": 136315,
+      "tvdb": 403294,
+      "trakt": 189717
+    },
+    "enrichStatus": "ok",
+    "enrichNotes": "TMDB+OMDb+Trakt",
+    "imdbRating": 8.5,
+    "omdbRating": {
+      "Internet Movie Database": "8.5/10"
+    },
+    "rated": "TV-MA",
+    "themes": [
+      "food-and-kitchens",
+      "family-business",
+      "workplace",
+      "grief-and-loss",
+      "comedy",
+      "heartfelt",
+      "thinky",
+      "date-friendly"
+    ],
+    "platformsBaked": [
+      "Hulu",
+      "Disney+"
+    ],
+    "whereAsOf": "2026-10-28T15:50:15-04:00",
+    "whereProvider": "watchmode",
+    "watchmodeId": 3184679
+  },
+  {
+    "id": "severance",
+    "name": "Severance",
+    "kind": "show",
+    "year": 2022,
+    "runtimeMin": 50,
+    "moods": [
+      "brain",
+      "thrill"
+    ],
+    "genres": [
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "platforms": [
+      "Apple TV+"
+    ],
+    "why": "Workplace mystery that rewards paying attention.",
+    "tmdbId": 95396,
+    "tmdbMediaType": "tv",
+    "imdbId": "tt11280740",
+    "tmdbTitle": "Severance",
+    "tmdbDate": "2022-02-17",
+    "overview": "Mark leads a team of office workers whose memories have been surgically divided between their work and personal lives. When a mysterious colleague appears outside of work, it begins a journey to discover the truth about their jobs.",
+    "posterPath": "/pPHpeI2X1qEd1CS1SeyrdhZ4qnT.jpg",
+    "voteAverage": 8.4,
+    "genresTmdb": [
+      "Drama",
+      "Mystery",
+      "Sci-Fi & Fantasy"
+    ],
+    "seasonsTmdb": 3,
+    "traktIds": {
+      "imdb": "tt11280740",
+      "plex": {
+        "guid": "5e1622d34f2292003e91314a",
+        "slug": "severance"
+      },
+      "slug": "severance",
+      "tmdb": 95396,
+      "tvdb": 371980,
+      "trakt": 154997
+    },
+    "enrichStatus": "ok",
+    "enrichNotes": "TMDB+OMDb+Trakt",
+    "imdbRating": 8.6,
+    "omdbRating": {
+      "Internet Movie Database": "8.6/10"
+    },
+    "rated": "TV-MA",
+    "themes": [
+      "workplace",
+      "memory-and-identity",
+      "mystery",
+      "sci-fi",
+      "thinky",
+      "tense"
+    ],
+    "platformsBaked": [
+      "Apple TV+"
+    ],
+    "whereAsOf": "2026-10-28T15:50:15-04:00",
+    "whereProvider": "watchmode",
+    "watchmodeId": 1592806
+  },
+  {
+    "id": "abbott-elementary",
+    "name": "Abbott Elementary",
+    "kind": "show",
+    "year": 2021,
+    "runtimeMin": 22,
+    "moods": [
+      "funny",
+      "chill",
+      "feel"
+    ],
+    "genres": [
+      "Comedy"
+    ],
+    "platforms": [
+      "Hulu",
+      "Max"
+    ],
+    "why": "Warm workplace comedy you can drop into anytime.",
+    "tmdbId": 125935,
+    "tmdbMediaType": "tv",
+    "imdbId": "tt14218830",
+    "tmdbTitle": "Abbott Elementary",
+    "tmdbDate": "2021-12-07",
+    "overview": "In this workplace comedy, a group of dedicated, passionate teachers — and a slightly tone-deaf principal — are brought together in a Philadelphia public school where, despite the odds stacked against them, they are determined to help their students succeed in life. Though these incredible public servants may be outnumbered and underfunded, they love what they do — even if they don’t love the school district’s less-than-stellar attitude toward educating children.",
+    "posterPath": "/zk2aNVIHoapdWKOcaYp7PhX9SxD.jpg",
+    "voteAverage": 7.5,
+    "genresTmdb": [
+      "Comedy"
+    ],
+    "seasonsTmdb": 6,
+    "traktIds": {
+      "imdb": "tt14218830",
+      "plex": {
+        "guid": "60a69b7811abb9002d7adbb8",
+        "slug": "abbott-elementary"
+      },
+      "slug": "abbott-elementary",
+      "tmdb": 125935,
+      "tvdb": 402910,
+      "trakt": 180675
+    },
+    "enrichStatus": "ok",
+    "enrichNotes": "TMDB+OMDb+Trakt",
+    "imdbRating": 8.2,
+    "omdbRating": {
+      "Internet Movie Database": "8.2/10"
+    },
+    "rated": "TV-PG",
+    "themes": [
+      "school-setting",
+      "mockumentary",
+      "workplace",
+      "comedy",
+      "laughs",
+      "easy-watch",
+      "heartfelt"
+    ],
+    "platformsBaked": [
+      "Hulu",
+      "Disney+"
+    ],
+    "whereAsOf": "2026-10-28T15:50:15-04:00",
+    "whereProvider": "watchmode",
+    "watchmodeId": 3179719
+  },
+  {
+    "id": "shogun",
+    "name": "Shogun",
+    "kind": "show",
+    "year": 2024,
+    "runtimeMin": 60,
+    "moods": [
+      "thrill",
+      "brain",
+      "feel"
+    ],
+    "genres": [
+      "Drama",
+      "History"
+    ],
+    "platforms": [
+      "Hulu",
+      "Disney+"
+    ],
+    "why": "Epic politics and loyalty with gorgeous craft.",
+    "tmdbId": 126308,
+    "tmdbMediaType": "tv",
+    "imdbId": "tt2788316",
+    "tmdbTitle": "Shōgun",
+    "tmdbDate": "2024-02-27",
+    "overview": "In Japan in the year 1600, at the dawn of a century-defining civil war, Lord Yoshii Toranaga is fighting for his life as his enemies on the Council of Regents unite against him, when a mysterious European ship is found marooned in a nearby fishing village.",
+    "posterPath": "/7O4iVfOMQmdCSxhOg1WnzG1AgYT.jpg",
+    "voteAverage": 8.4,
+    "genresTmdb": [
+      "Drama",
+      "War & Politics"
+    ],
+    "seasonsTmdb": 1,
+    "traktIds": {
+      "imdb": "tt2788316",
+      "plex": {
+        "guid": "60ad2998c037da002dbd41c1",
+        "slug": "shogun-1"
+      },
+      "slug": "shogun-2024",
+      "tmdb": 126308,
+      "tvdb": 392573,
+      "trakt": 170054
+    },
+    "enrichStatus": "ok",
+    "enrichNotes": "TMDB+OMDb+Trakt",
+    "imdbRating": 8.6,
+    "omdbRating": {
+      "Internet Movie Database": "8.6/10"
+    },
+    "rated": "TV-MA",
+    "themes": [
+      "asian-led",
+      "war",
+      "based-on-a-book",
+      "fish-out-of-water",
+      "period-piece",
+      "tense",
+      "thinky",
+      "heartfelt"
+    ],
+    "platformsBaked": [
+      "Hulu",
+      "Disney+"
+    ],
+    "whereAsOf": "2026-10-28T15:50:15-04:00",
+    "whereProvider": "watchmode",
+    "watchmodeId": 538646
+  },
+  {
+    "id": "only-murders-in-the-building",
+    "name": "Only Murders in the Building",
+    "kind": "show",
+    "year": 2021,
+    "runtimeMin": 30,
+    "moods": [
+      "funny",
+      "chill",
+      "date"
+    ],
+    "genres": [
+      "Comedy",
+      "Mystery"
+    ],
+    "platforms": [
+      "Hulu",
+      "Disney+"
+    ],
+    "why": "Cozy whodunit with sharp writing and chemistry.",
+    "tmdbId": 107113,
+    "tmdbMediaType": "tv",
+    "imdbId": "tt11691774",
+    "tmdbTitle": "Only Murders in the Building",
+    "tmdbDate": "2021-08-31",
+    "overview": "Three strangers share an obsession with true crime and suddenly find themselves wrapped up in one.",
+    "posterPath": "/1yjFVQZuW8aofZ5Cgol8iImsVFp.jpg",
+    "voteAverage": 8.4,
+    "genresTmdb": [
+      "Comedy",
+      "Mystery",
+      "Crime"
+    ],
+    "seasonsTmdb": 6,
+    "traktIds": {
+      "imdb": "tt11691774",
+      "plex": {
+        "guid": "5f2e583c684902004303e54a",
+        "slug": "only-murders-in-the-building"
+      },
+      "slug": "only-murders-in-the-building",
+      "tmdb": 107113,
+      "tvdb": 399959,
+      "trakt": 165314
+    },
+    "enrichStatus": "ok",
+    "enrichNotes": "TMDB+OMDb+Trakt",
+    "imdbRating": 8.0,
+    "omdbRating": {
+      "Internet Movie Database": "8.0/10"
+    },
+    "rated": "TV-MA",
+    "themes": [
+      "friendship",
+      "female-lead",
+      "crime",
+      "whodunit",
+      "showbiz",
+      "comedy",
+      "mystery",
+      "laughs",
+      "easy-watch",
+      "date-friendly"
+    ],
+    "platformsBaked": [
+      "Hulu",
+      "Disney+"
+    ],
+    "whereAsOf": "2026-10-28T15:50:15-04:00",
+    "whereProvider": "watchmode",
+    "watchmodeId": 3179116
+  },
+  {
+    "id": "the-gentlemen",
+    "name": "The Gentlemen",
+    "kind": "show",
+    "year": 2024,
+    "runtimeMin": 50,
+    "moods": [
+      "thrill",
+      "funny"
+    ],
+    "genres": [
+      "Crime",
+      "Comedy"
+    ],
+    "platforms": [
+      "Netflix"
+    ],
+    "why": "Stylish crime games with Guy Ritchie energy.",
+    "tmdbId": 236235,
+    "tmdbMediaType": "tv",
+    "imdbId": "tt13210838",
+    "tmdbTitle": "The Gentlemen",
+    "tmdbDate": "2024-03-07",
+    "overview": "When aristocratic Eddie inherits the family estate, he discovers that it's home to an enormous weed empire — and its proprietors aren't going anywhere.",
+    "posterPath": "/tw3tzfXaSpmUZIB8ZNqNEGzMBCy.jpg",
+    "voteAverage": 7.9,
+    "genresTmdb": [
+      "Comedy",
+      "Drama",
+      "Crime"
+    ],
+    "seasonsTmdb": 3,
+    "traktIds": {
+      "imdb": "tt13210838",
+      "plex": {
+        "guid": "6365f4db354ca0d2edfad043",
+        "slug": "the-gentlemen"
+      },
+      "slug": "the-gentlemen",
+      "tmdb": 236235,
+      "tvdb": 426845,
+      "trakt": 211407
+    },
+    "enrichStatus": "ok",
+    "enrichNotes": "Netflix series 2024, not 2019 film",
+    "imdbRating": 8.1,
+    "omdbRating": {
+      "Internet Movie Database": "8.1/10"
+    },
+    "rated": "TV-MA",
+    "themes": [
+      "dark-comedy",
+      "wealth-and-class",
+      "comedy",
+      "crime",
+      "tense",
+      "laughs"
+    ],
+    "platformsBaked": [
+      "Netflix"
+    ],
+    "whereAsOf": "2026-10-28T15:50:15-04:00",
+    "whereProvider": "watchmode",
+    "watchmodeId": 3207934
+  },
+  {
+    "id": "slow-horses",
+    "name": "Slow Horses",
+    "kind": "show",
+    "year": 2022,
+    "runtimeMin": 45,
+    "moods": [
+      "thrill",
+      "funny",
+      "brain"
+    ],
+    "genres": [
+      "Thriller",
+      "Spy"
+    ],
+    "platforms": [
+      "Prime",
+      "Apple TV+"
+    ],
+    "why": "Broken spies, dry humor, actual stakes.",
+    "tmdbId": 95480,
+    "tmdbMediaType": "tv",
+    "imdbId": "tt5875444",
+    "tmdbTitle": "Slow Horses",
+    "tmdbDate": "2022-04-01",
+    "overview": "Follow a dysfunctional team of MI5 agents—and their obnoxious boss, the notorious Jackson Lamb—as they navigate the espionage world's smoke and mirrors to defend England from sinister forces.",
+    "posterPath": "/AdYr4DjOgXvDUMwu6vEhZy1Rnxk.jpg",
+    "voteAverage": 8.1,
+    "genresTmdb": [
+      "Crime",
+      "Drama",
+      "Mystery"
+    ],
+    "seasonsTmdb": 6,
+    "traktIds": {
+      "imdb": "tt5875444",
+      "plex": {
+        "guid": "5e1622a54f2292003e912fcf",
+        "slug": "slow-horses"
+      },
+      "slug": "slow-horses",
+      "tmdb": 95480,
+      "tvdb": 372264,
+      "trakt": 155534
+    },
+    "enrichStatus": "ok",
+    "enrichNotes": "TMDB+OMDb+Trakt",
+    "imdbRating": 8.4,
+    "omdbRating": {
+      "Internet Movie Database": "8.4/10"
+    },
+    "rated": "TV-MA",
+    "themes": [
+      "spycraft",
+      "based-on-a-book",
+      "crime",
+      "mystery",
+      "tense",
+      "laughs",
+      "thinky"
+    ],
+    "platformsBaked": [
+      "Apple TV+"
+    ],
+    "whereAsOf": "2026-10-28T15:50:15-04:00",
+    "whereProvider": "watchmode",
+    "watchmodeId": 3165490
+  },
+  {
+    "id": "hacks",
+    "name": "Hacks",
+    "kind": "show",
+    "year": 2021,
+    "runtimeMin": 30,
+    "moods": [
+      "funny",
+      "feel",
+      "brain"
+    ],
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "platforms": [
+      "Max"
+    ],
+    "why": "Comedy writing at its sharpest, with real bite.",
+    "tmdbId": 124101,
+    "tmdbMediaType": "tv",
+    "imdbId": "tt11815682",
+    "tmdbTitle": "Hacks",
+    "tmdbDate": "2021-05-13",
+    "overview": "Explore a dark mentorship that forms between Deborah Vance, a legendary Las Vegas comedian, and an entitled, outcast 25-year-old.",
+    "posterPath": "/ca5XiEFgyGsI38QT3wEKa1QVGX.jpg",
+    "voteAverage": 7.5,
+    "genresTmdb": [
+      "Comedy",
+      "Drama"
+    ],
+    "seasonsTmdb": 5,
+    "traktIds": {
+      "imdb": "tt11815682",
+      "plex": {
+        "guid": "608599a4ac0818002c5e0de3",
+        "slug": "hacks-1"
+      },
+      "slug": "hacks-2021",
+      "tmdb": 124101,
+      "tvdb": 401582,
+      "trakt": 179632
+    },
+    "enrichStatus": "ok",
+    "enrichNotes": "TMDB+OMDb+Trakt",
+    "imdbRating": 8.3,
+    "omdbRating": {
+      "Internet Movie Database": "8.3/10"
+    },
+    "rated": "TV-MA",
+    "themes": [
+      "showbiz",
+      "comedy",
+      "laughs",
+      "heartfelt",
+      "thinky"
+    ],
+    "platformsBaked": [
+      "Max"
+    ],
+    "whereAsOf": "2026-10-28T15:50:15-04:00",
+    "whereProvider": "watchmode",
+    "watchmodeId": 3174612
+  },
+  {
+    "id": "fallout",
+    "name": "Fallout",
+    "kind": "show",
+    "year": 2024,
+    "runtimeMin": 55,
+    "moods": [
+      "thrill",
+      "funny"
+    ],
+    "genres": [
+      "Sci-Fi",
+      "Adventure"
+    ],
+    "platforms": [
+      "Prime"
+    ],
+    "why": "Wasteland pulp that actually sticks the landing.",
+    "tmdbId": 106379,
+    "tmdbMediaType": "tv",
+    "imdbId": "tt12637874",
+    "tmdbTitle": "Fallout",
+    "tmdbDate": "2024-04-10",
+    "overview": "The story of haves and have-nots in a world in which there's almost nothing left to have. 200 years after the apocalypse, the gentle denizens of luxury fallout shelters are forced to return to the irradiated hellscape their ancestors left behind — and are shocked to discover an incredibly complex, gleefully weird, and highly violent universe waiting for them.",
+    "posterPath": "/c15BtJxCXMrISLVmysdsnZUPQft.jpg",
+    "voteAverage": 8.1,
+    "genresTmdb": [
+      "Action & Adventure",
+      "Sci-Fi & Fantasy",
+      "Drama"
+    ],
+    "seasonsTmdb": 2,
+    "traktIds": {
+      "imdb": "tt12637874",
+      "plex": {
+        "guid": "5f1b325f4e3eb7003f6a4140",
+        "slug": "fallout-1"
+      },
+      "slug": "fallout",
+      "tmdb": 106379,
+      "tvdb": 416744,
+      "trakt": 163965
+    },
+    "enrichStatus": "ok",
+    "enrichNotes": "TMDB+OMDb+Trakt",
+    "imdbRating": 8.3,
+    "omdbRating": {
+      "Internet Movie Database": "8.3/10"
+    },
+    "rated": "TV-MA",
+    "themes": [
+      "post-apocalyptic",
+      "ai-and-robots",
+      "video-game-adaptation",
+      "action",
+      "sci-fi",
+      "tense",
+      "laughs"
+    ],
+    "platformsBaked": [
+      "Prime"
+    ],
+    "whereAsOf": "2026-10-28T15:50:15-04:00",
+    "whereProvider": "watchmode",
+    "watchmodeId": 3171564
+  },
+  {
+    "id": "the-night-agent",
+    "name": "The Night Agent",
+    "kind": "show",
+    "year": 2023,
+    "runtimeMin": 45,
+    "moods": [
+      "thrill"
+    ],
+    "genres": [
+      "Thriller",
+      "Action"
+    ],
+    "platforms": [
+      "Netflix"
+    ],
+    "why": "Page-turner spy pace for nights you want momentum.",
+    "tmdbId": 129552,
+    "tmdbMediaType": "tv",
+    "imdbId": "tt13918776",
+    "tmdbTitle": "The Night Agent",
+    "tmdbDate": "2023-03-23",
+    "overview": "Brought together by a midnight phone call, an FBI agent and a cybersecurity expert must unravel an ever-growing web of political conspiracies.",
+    "posterPath": "/4c5yUNcaff4W4aPrkXE6zr7papX.jpg",
+    "voteAverage": 7.7,
+    "genresTmdb": [
+      "Action & Adventure",
+      "Drama",
+      "Mystery"
+    ],
+    "seasonsTmdb": 4,
+    "traktIds": {
+      "imdb": "tt13918776",
+      "plex": {
+        "guid": "60f9444c9f3e49002d08d6e4",
+        "slug": "the-night-agent"
+      },
+      "slug": "the-night-agent",
+      "tmdb": 129552,
+      "tvdb": 407281,
+      "trakt": 184471
+    },
+    "enrichStatus": "ok",
+    "enrichNotes": "TMDB+OMDb+Trakt",
+    "imdbRating": 7.4,
+    "omdbRating": {
+      "Internet Movie Database": "7.4/10"
+    },
+    "rated": "TV-MA",
+    "themes": [
+      "based-on-a-book",
+      "conspiracy",
+      "workplace",
+      "action",
+      "mystery",
+      "tense"
+    ],
+    "platformsBaked": [
+      "Netflix"
+    ],
+    "whereAsOf": "2026-10-28T15:50:15-04:00",
+    "whereProvider": "watchmode",
+    "watchmodeId": 3181750
+  },
+  {
+    "id": "reservation-dogs",
+    "name": "Reservation Dogs",
+    "kind": "show",
+    "year": 2021,
+    "runtimeMin": 30,
+    "moods": [
+      "feel",
+      "funny",
+      "chill"
+    ],
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "platforms": [
+      "Hulu"
+    ],
+    "why": "Specific, funny, and quietly profound.",
+    "tmdbId": 95215,
+    "tmdbMediaType": "tv",
+    "imdbId": "tt13623580",
+    "tmdbTitle": "Reservation Dogs",
+    "tmdbDate": "2021-08-09",
+    "overview": "Four Indigenous teenagers in rural Oklahoma steal, rob and save in order to get to the exotic, mysterious and faraway land of California.",
+    "posterPath": "/t6hqwD5oQRGgNrZKN71BQYxteC1.jpg",
+    "voteAverage": 7.9,
+    "genresTmdb": [
+      "Drama",
+      "Comedy"
+    ],
+    "seasonsTmdb": 3,
+    "traktIds": {
+      "imdb": "tt13623580",
+      "plex": {
+        "guid": "5e16225e4f2292003e912e49",
+        "slug": "reservation-dogs"
+      },
+      "slug": "reservation-dogs",
+      "tmdb": 95215,
+      "tvdb": 371884,
+      "trakt": 154900
+    },
+    "enrichStatus": "ok",
+    "enrichNotes": "TMDB+OMDb+Trakt",
+    "imdbRating": 8.3,
+    "omdbRating": {
+      "Internet Movie Database": "8.3/10"
+    },
+    "rated": "TV-MA",
+    "themes": [
+      "indigenous-stories",
+      "comedy",
+      "heartfelt",
+      "laughs",
+      "easy-watch"
+    ],
+    "platformsBaked": [
+      "Hulu",
+      "Disney+"
+    ],
+    "whereAsOf": "2026-10-28T15:50:15-04:00",
+    "whereProvider": "watchmode",
+    "watchmodeId": 3175082
+  },
+  {
+    "id": "what-we-do-in-the-shadows",
+    "name": "What We Do in the Shadows",
+    "kind": "show",
+    "year": 2019,
+    "runtimeMin": 25,
+    "moods": [
+      "funny",
+      "chill"
+    ],
+    "genres": [
+      "Comedy",
+      "Horror"
+    ],
+    "platforms": [
+      "Hulu"
+    ],
+    "why": "Deadpan vampire nonsense; perfect half-hour reset.",
+    "tmdbId": 83631,
+    "tmdbMediaType": "tv",
+    "imdbId": "tt7908628",
+    "tmdbTitle": "What We Do in the Shadows",
+    "tmdbDate": "2019-03-27",
+    "overview": "A documentary-style look into the daily (or rather, nightly) lives of a group of vampires in Staten Island who have “lived” together for hundreds and hundreds of years.",
+    "posterPath": "/wa3ZQE9kLnqwN3vQ0NNjg1NPsCa.jpg",
+    "voteAverage": 8.0,
+    "genresTmdb": [
+      "Comedy",
+      "Sci-Fi & Fantasy"
+    ],
+    "seasonsTmdb": 6,
+    "traktIds": {
+      "imdb": "tt7908628",
+      "plex": {
+        "guid": "5d9c0911e9d5a1001f4de45d",
+        "slug": "what-we-do-in-the-shadows"
+      },
+      "slug": "what-we-do-in-the-shadows",
+      "tmdb": 83631,
+      "tvdb": 358211,
+      "trakt": 142927
+    },
+    "enrichStatus": "ok",
+    "enrichNotes": "TMDB+OMDb+Trakt",
+    "imdbRating": 8.5,
+    "omdbRating": {
+      "Internet Movie Database": "8.5/10"
+    },
+    "rated": "TV-MA",
+    "themes": [
+      "monsters",
+      "mockumentary",
+      "comedy",
+      "sci-fi",
+      "laughs",
+      "easy-watch"
+    ],
+    "platformsBaked": [
+      "Hulu",
+      "Disney+"
+    ],
+    "whereAsOf": "2026-10-28T15:50:15-04:00",
+    "whereProvider": "watchmode",
+    "watchmodeId": 3155995
+  },
+  {
+    "id": "dune-part-two",
+    "name": "Dune: Part Two",
+    "kind": "movie",
+    "year": 2024,
+    "runtimeMin": 166,
+    "moods": [
+      "thrill",
+      "brain",
+      "date"
+    ],
+    "genres": [
+      "Sci-Fi",
+      "Epic"
+    ],
+    "platforms": [
+      "Max"
+    ],
+    "why": "Big-screen spectacle that still feels personal.",
+    "tmdbId": 693134,
+    "tmdbMediaType": "movie",
+    "imdbId": "tt15239678",
+    "tmdbTitle": "Dune: Part Two",
+    "tmdbDate": "2024-02-27",
+    "overview": "Follow the mythic journey of Paul Atreides as he unites with Chani and the Fremen while on a path of revenge against the conspirators who destroyed his family. Facing a choice between the love of his life and the fate of the known universe, Paul endeavors to prevent a terrible future only he can foresee.",
+    "posterPath": "/6izwz7rsy95ARzTR3poZ8H6c5pp.jpg",
+    "voteAverage": 8.1,
+    "genresTmdb": [
+      "Science Fiction",
+      "Adventure"
+    ],
+    "runtimeTmdb": 167,
+    "traktIds": {
+      "imdb": "tt15239678",
+      "plex": {
+        "guid": "5eb8f22237ccbe0041723253",
+        "slug": "dune-part-two"
+      },
+      "slug": "dune-part-two-2024",
+      "tmdb": 693134,
+      "trakt": 537449
+    },
+    "enrichStatus": "ok",
+    "enrichNotes": "TMDB+OMDb+Trakt",
+    "imdbRating": 8.4,
+    "omdbRating": {
+      "Internet Movie Database": "8.4/10",
+      "Rotten Tomatoes": "92%",
+      "Metacritic": "79/100"
+    },
+    "rated": "PG-13",
+    "themes": [
+      "based-on-a-book",
+      "franchise",
+      "monsters",
+      "epic-worlds",
+      "sci-fi",
+      "tense",
+      "thinky",
+      "date-friendly"
+    ],
+    "platformsBaked": [
+      "Max"
+    ],
+    "whereAsOf": "2026-10-28T15:50:15-04:00",
+    "whereProvider": "watchmode",
+    "watchmodeId": 1644435
+  },
+  {
+    "id": "everything-everywhere-all-at-once",
+    "name": "Everything Everywhere All at Once",
+    "kind": "movie",
+    "year": 2022,
+    "runtimeMin": 139,
+    "moods": [
+      "feel",
+      "funny",
+      "brain"
+    ],
+    "genres": [
+      "Sci-Fi",
+      "Comedy",
+      "Drama"
+    ],
+    "platforms": [
+      "Hulu"
+    ],
+    "why": "Chaotic love letter to family and possibility.",
+    "tmdbId": 545611,
+    "tmdbMediaType": "movie",
+    "imdbId": "tt6710474",
+    "tmdbTitle": "Everything Everywhere All at Once",
+    "tmdbDate": "2022-03-24",
+    "overview": "An aging Chinese immigrant is swept up in an insane adventure, where she alone can save what's important to her by connecting with the lives she could have led in other universes.",
+    "posterPath": "/u68AjlvlutfEIcpmbYpKcdi09ut.jpg",
+    "voteAverage": 7.7,
+    "genresTmdb": [
+      "Action",
+      "Adventure",
+      "Science Fiction"
+    ],
+    "runtimeTmdb": 140,
+    "traktIds": {
+      "imdb": "tt6710474",
+      "plex": {
+        "guid": "5d77707c6afb3d002061b643",
+        "slug": "everything-everywhere-all-at-once"
+      },
+      "slug": "everything-everywhere-all-at-once-2022",
+      "tmdb": 545611,
+      "trakt": 396092
+    },
+    "enrichStatus": "ok",
+    "enrichNotes": "TMDB+OMDb+Trakt",
+    "imdbRating": 7.7,
+    "omdbRating": {
+      "Internet Movie Database": "7.7/10",
+      "Rotten Tomatoes": "93%",
+      "Metacritic": "81/100"
+    },
+    "rated": "R",
+    "themes": [
+      "family-drama",
+      "big-ideas",
+      "asian-led",
+      "surreal",
+      "immigrant-stories",
+      "action",
+      "sci-fi",
+      "heartfelt",
+      "laughs",
+      "thinky"
+    ],
+    "platformsBaked": [
+      "Prime",
+      "Paramount+"
+    ],
+    "whereAsOf": "2026-10-28T15:50:15-04:00",
+    "whereProvider": "watchmode",
+    "watchmodeId": 1516721
+  },
+  {
+    "id": "past-lives",
+    "name": "Past Lives",
+    "kind": "movie",
+    "year": 2023,
+    "runtimeMin": 105,
+    "moods": [
+      "feel",
+      "date",
+      "chill"
+    ],
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "platforms": [
+      "Paramount+"
+    ],
+    "why": "Quiet, precise, and hard to shake after.",
+    "tmdbId": 666277,
+    "tmdbMediaType": "movie",
+    "imdbId": "tt13238346",
+    "tmdbTitle": "Past Lives",
+    "tmdbDate": "2023-06-02",
+    "overview": "After decades apart, childhood friends Nora and Hae Sung are reunited in New York for one fateful weekend as they confront notions of destiny, love, and the choices that make a life.",
+    "posterPath": "/k3waqVXSnvCZWfJYNtdamTgTtTA.jpg",
+    "voteAverage": 7.7,
+    "genresTmdb": [
+      "Drama",
+      "Romance"
+    ],
+    "runtimeTmdb": 106,
+    "traktIds": {
+      "imdb": "tt13238346",
+      "plex": {
+        "guid": "5f86722f2556d100412f614d",
+        "slug": "past-lives-2023"
+      },
+      "slug": "past-lives-2023",
+      "tmdb": 666277,
+      "trakt": 500028
+    },
+    "enrichStatus": "ok",
+    "enrichNotes": "TMDB+OMDb+Trakt",
+    "imdbRating": 7.8,
+    "omdbRating": {
+      "Internet Movie Database": "7.8/10",
+      "Rotten Tomatoes": "95%",
+      "Metacritic": "94/100"
+    },
+    "rated": "PG-13",
+    "themes": [
+      "immigrant-stories",
+      "friendship",
+      "relationships",
+      "women-directors",
+      "romance",
+      "heartfelt",
+      "date-friendly",
+      "easy-watch"
+    ],
+    "platformsBaked": [
+      "Paramount+"
+    ],
+    "whereAsOf": "2026-10-28T15:50:15-04:00",
+    "whereProvider": "watchmode",
+    "watchmodeId": 1689222
+  },
+  {
+    "id": "oppenheimer",
+    "name": "Oppenheimer",
+    "kind": "movie",
+    "year": 2023,
+    "runtimeMin": 180,
+    "moods": [
+      "brain",
+      "thrill"
+    ],
+    "genres": [
+      "Drama",
+      "History"
+    ],
+    "platforms": [
+      "Fandango at Home Free",
+      "Peacock"
+    ],
+    "why": "Dense, propulsive biography that fills a whole evening.",
+    "tmdbId": 872585,
+    "tmdbMediaType": "movie",
+    "imdbId": "tt15398776",
+    "tmdbTitle": "Oppenheimer",
+    "tmdbDate": "2023-07-19",
+    "overview": "The story of J. Robert Oppenheimer's role in the development of the atomic bomb during World War II.",
+    "posterPath": "/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
+    "voteAverage": 8.0,
+    "genresTmdb": [
+      "Drama",
+      "History",
+      "War"
+    ],
+    "runtimeTmdb": 181,
+    "traktIds": {
+      "imdb": "tt15398776",
+      "plex": {
+        "guid": "613b69464d1516c90af83633",
+        "slug": "oppenheimer-2023-1"
+      },
+      "slug": "oppenheimer-2023",
+      "tmdb": 872585,
+      "trakt": 698292
+    },
+    "enrichStatus": "ok",
+    "enrichNotes": "TMDB+OMDb+Trakt",
+    "imdbRating": 8.2,
+    "omdbRating": {
+      "Internet Movie Database": "8.2/10",
+      "Rotten Tomatoes": "93%",
+      "Metacritic": "90/100"
+    },
+    "rated": "R",
+    "themes": [
+      "relationships",
+      "based-on-a-book",
+      "war",
+      "big-ideas",
+      "true-story",
+      "period-piece",
+      "moral-dilemmas",
+      "thinky",
+      "tense"
+    ],
+    "platformsBaked": [
+      "Prime"
+    ],
+    "whereAsOf": "2026-10-28T15:50:15-04:00",
+    "whereProvider": "watchmode",
+    "watchmodeId": 1643798
+  },
+  {
+    "id": "barbie",
+    "name": "Barbie",
+    "kind": "movie",
+    "year": 2023,
+    "runtimeMin": 114,
+    "moods": [
+      "funny",
+      "feel",
+      "date"
+    ],
+    "genres": [
+      "Comedy",
+      "Fantasy"
+    ],
+    "platforms": [
+      "Max"
+    ],
+    "why": "Bright satire with more heart than the trailers sold.",
+    "tmdbId": 346698,
+    "tmdbMediaType": "movie",
+    "imdbId": "tt1517268",
+    "tmdbTitle": "Barbie",
+    "tmdbDate": "2023-07-19",
+    "overview": "Barbie and Ken are having the time of their lives in the colorful and seemingly perfect world of Barbie Land. However, when they get a chance to go to the real world, they soon discover the joys and perils of living among humans.",
+    "posterPath": "/iuFNMS8U5cb6xfzi51Dbkovj7vM.jpg",
+    "voteAverage": 6.9,
+    "genresTmdb": [
+      "Comedy",
+      "Adventure",
+      "Fantasy"
+    ],
+    "runtimeTmdb": 114,
+    "traktIds": {
+      "imdb": "tt1517268",
+      "plex": {
+        "guid": "5d776bb6ad5437001f7a7b68",
+        "slug": "barbie-2023-4"
+      },
+      "slug": "barbie-2023",
+      "tmdb": 346698,
+      "trakt": 242104
+    },
+    "enrichStatus": "ok",
+    "enrichNotes": "TMDB+OMDb+Trakt",
+    "imdbRating": 6.8,
+    "omdbRating": {
+      "Internet Movie Database": "6.8/10",
+      "Rotten Tomatoes": "88%",
+      "Metacritic": "80/100"
+    },
+    "rated": "PG-13",
+    "themes": [
+      "female-lead",
+      "satire",
+      "family-drama",
+      "fish-out-of-water",
+      "women-directors",
+      "comedy",
+      "laughs",
+      "heartfelt",
+      "date-friendly"
+    ],
+    "platformsBaked": [
+      "Max"
+    ],
+    "whereAsOf": "2026-10-28T15:50:15-04:00",
+    "whereProvider": "watchmode",
+    "watchmodeId": 143379
+  },
+  {
+    "id": "spider-man-across-the-spider-verse",
+    "name": "Spider-Man: Across the Spider-Verse",
+    "kind": "movie",
+    "year": 2023,
+    "runtimeMin": 140,
+    "moods": [
+      "thrill",
+      "feel",
+      "funny"
+    ],
+    "genres": [
+      "Animation",
+      "Action"
+    ],
+    "platforms": [
+      "Max",
+      "Disney+"
+    ],
+    "why": "Visually wild and emotionally sharp.",
+    "tmdbId": 569094,
+    "tmdbMediaType": "movie",
+    "imdbId": "tt9362722",
+    "tmdbTitle": "Spider-Man: Across the Spider-Verse",
+    "tmdbDate": "2023-05-31",
+    "overview": "After reuniting with Gwen Stacy, Brooklyn’s full-time, friendly neighborhood Spider-Man is catapulted across the Multiverse, where he encounters the Spider Society, a team of Spider-People charged with protecting the Multiverse's very existence. But when the heroes clash on how to handle a new threat, Miles finds himself pitted against the other Spiders and must set out on his own to save those he loves most.",
+    "posterPath": "/8Vt6mWEReuy4Of61Lnj5Xj704m8.jpg",
+    "voteAverage": 8.3,
+    "genresTmdb": [
+      "Animation",
+      "Action",
+      "Adventure",
+      "Science Fiction"
+    ],
+    "runtimeTmdb": 140,
+    "traktIds": {
+      "imdb": "tt9362722",
+      "plex": {
+        "guid": "5d7770acad5437001f8281cf",
+        "slug": "spider-man-across-the-spider-verse"
+      },
+      "slug": "spider-man-across-the-spider-verse-2023",
+      "tmdb": 569094,
+      "trakt": 420606
+    },
+    "enrichStatus": "ok",
+    "enrichNotes": "TMDB+OMDb+Trakt",
+    "imdbRating": 8.5,
+    "omdbRating": {
+      "Internet Movie Database": "8.5/10",
+      "Rotten Tomatoes": "95%",
+      "Metacritic": "86/100"
+    },
+    "rated": "PG",
+    "themes": [
+      "memory-and-identity",
+      "superhero",
+      "multiverse",
+      "comic-adaptation",
+      "franchise",
+      "coming-of-age",
+      "animated",
+      "action",
+      "sci-fi",
+      "tense",
+      "heartfelt",
+      "laughs"
+    ],
+    "platformsBaked": [
+      "Netflix"
+    ],
+    "whereAsOf": "2026-10-28T15:50:15-04:00",
+    "whereProvider": "watchmode",
+    "watchmodeId": 1543522
+  },
+  {
+    "id": "the-holdovers",
+    "name": "The Holdovers",
+    "kind": "movie",
+    "year": 2023,
+    "runtimeMin": 133,
+    "moods": [
+      "feel",
+      "funny",
+      "chill",
+      "date"
+    ],
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "platforms": [
+      "Fandango at Home Free",
+      "Peacock"
+    ],
+    "why": "Holiday misfits done right; cozy without soft edges.",
+    "tmdbId": 840430,
+    "tmdbMediaType": "movie",
+    "imdbId": "tt14849194",
+    "tmdbTitle": "The Holdovers",
+    "tmdbDate": "2023-10-27",
+    "overview": "A curmudgeonly instructor at a New England prep school is forced to remain on campus during Christmas break to babysit the handful of students with nowhere to go. Eventually, he forms an unlikely bond with one of them — a damaged, brainy troublemaker — and with the school’s head cook, who has just lost a son in Vietnam.",
+    "posterPath": "/VHSzNBTwxV8vh7wylo7O9CLdac.jpg",
+    "voteAverage": 7.6,
+    "genresTmdb": [
+      "Drama",
+      "Comedy"
+    ],
+    "runtimeTmdb": 133,
+    "traktIds": {
+      "imdb": "tt14849194",
+      "plex": {
+        "guid": "60cefe587025b1002c33bbf4",
+        "slug": "the-holdovers-2"
+      },
+      "slug": "the-holdovers-2023",
+      "tmdb": 840430,
+      "trakt": 671129
+    },
+    "enrichStatus": "ok",
+    "enrichNotes": "TMDB+OMDb+Trakt",
+    "imdbRating": 7.9,
+    "omdbRating": {
+      "Internet Movie Database": "7.9/10",
+      "Rotten Tomatoes": "97%",
+      "Metacritic": "82/100"
+    },
+    "rated": "R",
+    "themes": [
+      "school-setting",
+      "period-piece",
+      "grief-and-loss",
+      "comedy",
+      "heartfelt",
+      "laughs",
+      "easy-watch",
+      "date-friendly"
+    ],
+    "platformsBaked": [
+      "Prime"
+    ],
+    "whereAsOf": "2026-10-28T15:50:15-04:00",
+    "whereProvider": "watchmode",
+    "watchmodeId": 1650283
+  },
+  {
+    "id": "anatomy-of-a-fall",
+    "name": "Anatomy of a Fall",
+    "kind": "movie",
+    "year": 2023,
+    "runtimeMin": 152,
+    "moods": [
+      "brain",
+      "thrill"
+    ],
+    "genres": [
+      "Drama",
+      "Thriller"
+    ],
+    "platforms": [
+      "Max"
+    ],
+    "why": "Courtroom tension that keeps flipping your read.",
+    "tmdbId": 915935,
+    "tmdbMediaType": "movie",
+    "imdbId": "tt17009710",
+    "tmdbTitle": "Anatomy of a Fall",
+    "tmdbDate": "2023-08-23",
+    "overview": "A woman is suspected of her husband's murder, and their blind son faces a moral dilemma as the sole witness.",
+    "posterPath": "/1ho0d4LNZw3Y0voeKmSvPSgJOJ2.jpg",
+    "voteAverage": 7.5,
+    "genresTmdb": [
+      "Thriller",
+      "Mystery",
+      "Crime"
+    ],
+    "runtimeTmdb": 151,
+    "traktIds": {
+      "imdb": "tt17009710",
+      "plex": {
+        "guid": "61e52548f569e6b1cf81e1b1",
+        "slug": "anatomy-of-a-fall"
+      },
+      "slug": "anatomy-of-a-fall-2023",
+      "tmdb": 915935,
+      "trakt": 733410
+    },
+    "enrichStatus": "ok",
+    "enrichNotes": "TMDB+OMDb+Trakt",
+    "imdbRating": 7.6,
+    "omdbRating": {
+      "Internet Movie Database": "7.6/10",
+      "Rotten Tomatoes": "96%",
+      "Metacritic": "86/100"
+    },
+    "rated": "R",
+    "themes": [
+      "relationships",
+      "moral-dilemmas",
+      "courtroom",
+      "grief-and-loss",
+      "women-directors",
+      "family-drama",
+      "mystery",
+      "crime",
+      "thinky",
+      "tense"
+    ],
+    "platformsBaked": [
+      "Hulu",
+      "Disney+"
+    ],
+    "whereAsOf": "2026-10-28T15:50:15-04:00",
+    "whereProvider": "watchmode",
+    "watchmodeId": 1679684
+  },
+  {
+    "id": "godzilla-minus-one",
+    "name": "Godzilla Minus One",
+    "kind": "movie",
+    "year": 2023,
+    "runtimeMin": 125,
+    "moods": [
+      "thrill",
+      "feel"
+    ],
+    "genres": [
+      "Action",
+      "Sci-Fi"
+    ],
+    "platforms": [
+      "Netflix"
+    ],
+    "why": "Kaiju spectacle with real human stakes.",
+    "tmdbId": 940721,
+    "tmdbMediaType": "movie",
+    "imdbId": "tt23289160",
+    "tmdbTitle": "Godzilla Minus One",
+    "tmdbDate": "2023-11-03",
+    "overview": "In postwar Japan, Godzilla brings new devastation to an already scorched landscape. With no military intervention or government help in sight, the survivors must join together in the face of despair and fight back against an unrelenting horror.",
+    "posterPath": "/2E2WTX0TJEflAged6kzErwqX1kt.jpg",
+    "voteAverage": 7.6,
+    "genresTmdb": [
+      "Science Fiction",
+      "Horror",
+      "Action"
+    ],
+    "runtimeTmdb": 125,
+    "traktIds": {
+      "imdb": "tt23289160",
+      "plex": {
+        "guid": "621257066d1bca56d7164cce",
+        "slug": "godzilla-minus-one"
+      },
+      "slug": "godzilla-minus-one-2023",
+      "tmdb": 940721,
+      "trakt": 755432
+    },
+    "enrichStatus": "ok",
+    "enrichNotes": "TMDB+OMDb+Trakt",
+    "imdbRating": 7.6,
+    "omdbRating": {
+      "Internet Movie Database": "7.6/10",
+      "Rotten Tomatoes": "99%",
+      "Metacritic": "81/100"
+    },
+    "rated": "PG-13",
+    "themes": [
+      "monsters",
+      "grief-and-loss",
+      "asian-led",
+      "sci-fi",
+      "scary",
+      "action",
+      "tense",
+      "heartfelt"
+    ],
+    "platformsBaked": [
+      "Netflix"
+    ],
+    "whereAsOf": "2026-10-28T15:50:15-04:00",
+    "whereProvider": "watchmode",
+    "watchmodeId": 1697113
+  },
+  {
+    "id": "poor-things",
+    "name": "Poor Things",
+    "kind": "movie",
+    "year": 2023,
+    "runtimeMin": 141,
+    "moods": [
+      "funny",
+      "brain",
+      "date"
+    ],
+    "genres": [
+      "Comedy",
+      "Fantasy"
+    ],
+    "platforms": [
+      "Hulu"
+    ],
+    "why": "Weird, lush, and wildly committed to its bit.",
+    "tmdbId": 792307,
+    "tmdbMediaType": "movie",
+    "imdbId": "tt14230458",
+    "tmdbTitle": "Poor Things",
+    "tmdbDate": "2023-12-07",
+    "overview": "Brought back to life by an unorthodox scientist, a young woman runs off with a lawyer on a whirlwind adventure across the continents. Free from the prejudices of her times, she grows steadfast in her purpose to stand for equality and liberation.",
+    "posterPath": "/kCGlIMHnOm8JPXq3rXM6c5wMxcT.jpg",
+    "voteAverage": 7.6,
+    "genresTmdb": [
+      "Science Fiction",
+      "Romance",
+      "Comedy"
+    ],
+    "runtimeTmdb": 141,
+    "traktIds": {
+      "imdb": "tt14230458",
+      "plex": {
+        "guid": "601978bd212b59002bbf52d4",
+        "slug": "poor-things-2023"
+      },
+      "slug": "poor-things-2023",
+      "tmdb": 792307,
+      "trakt": 628026
+    },
+    "enrichStatus": "ok",
+    "enrichNotes": "TMDB+OMDb+Trakt",
+    "imdbRating": 7.7,
+    "omdbRating": {
+      "Internet Movie Database": "7.7/10",
+      "Rotten Tomatoes": "92%",
+      "Metacritic": "88/100"
+    },
+    "rated": "R",
+    "themes": [
+      "big-ideas",
+      "based-on-a-book",
+      "romance",
+      "female-lead",
+      "memory-and-identity",
+      "sci-fi",
+      "comedy",
+      "laughs",
+      "thinky",
+      "date-friendly"
+    ],
+    "platformsBaked": [
+      "Hulu",
+      "Disney+"
+    ],
+    "whereAsOf": "2026-10-28T15:50:15-04:00",
+    "whereProvider": "watchmode",
+    "watchmodeId": 1632764
+  },
+  {
+    "id": "killers-of-the-flower-moon",
+    "name": "Killers of the Flower Moon",
+    "kind": "movie",
+    "year": 2023,
+    "runtimeMin": 206,
+    "moods": [
+      "brain",
+      "feel"
+    ],
+    "genres": [
+      "Drama",
+      "Crime",
+      "History"
+    ],
+    "platforms": [
+      "Apple TV+"
+    ],
+    "why": "Slow-burn American crime story with weight.",
+    "tmdbId": 466420,
+    "tmdbMediaType": "movie",
+    "imdbId": "tt5537002",
+    "tmdbTitle": "Killers of the Flower Moon",
+    "tmdbDate": "2023-10-18",
+    "overview": "When oil is discovered in 1920s Oklahoma under Osage Nation land, the Osage people are murdered one by one—until the FBI steps in to unravel the mystery.",
+    "posterPath": "/dB6Krk806zeqd0YNp2ngQ9zXteH.jpg",
+    "voteAverage": 7.4,
+    "genresTmdb": [
+      "Crime",
+      "History",
+      "Drama"
+    ],
+    "runtimeTmdb": 206,
+    "traktIds": {
+      "imdb": "tt5537002",
+      "plex": {
+        "guid": "5d776d3dad5437001f7d0d50",
+        "slug": "killers-of-the-flower-moon"
+      },
+      "slug": "killers-of-the-flower-moon-2023",
+      "tmdb": 466420,
+      "trakt": 313884
+    },
+    "enrichStatus": "ok",
+    "enrichNotes": "TMDB+OMDb+Trakt",
+    "imdbRating": 7.5,
+    "omdbRating": {
+      "Internet Movie Database": "7.5/10",
+      "Rotten Tomatoes": "93%",
+      "Metacritic": "89/100"
+    },
+    "rated": "R",
+    "themes": [
+      "relationships",
+      "based-on-a-book",
+      "conspiracy",
+      "wealth-and-class",
+      "indigenous-stories",
+      "true-story",
+      "crime",
+      "period-piece",
+      "thinky",
+      "heartfelt"
+    ],
+    "platformsBaked": [
+      "Apple TV+"
+    ],
+    "whereAsOf": "2026-10-28T15:50:15-04:00",
+    "whereProvider": "watchmode",
+    "watchmodeId": 1508526
+  },
+  {
+    "id": "the-menu",
+    "name": "The Menu",
+    "kind": "movie",
+    "year": 2022,
+    "runtimeMin": 107,
+    "moods": [
+      "thrill",
+      "funny",
+      "date"
+    ],
+    "genres": [
+      "Thriller",
+      "Comedy"
+    ],
+    "platforms": [
+      "Netflix",
+      "Hulu"
+    ],
+    "why": "Sharp class satire served as a thriller.",
+    "tmdbId": 593643,
+    "tmdbMediaType": "movie",
+    "imdbId": "tt9764362",
+    "tmdbTitle": "The Menu",
+    "tmdbDate": "2022-11-17",
+    "overview": "A young couple travels to a remote island to eat at an exclusive restaurant where the chef has prepared a lavish menu, with some shocking surprises.",
+    "posterPath": "/fPtUgMcLIboqlTlPrq0bQpKK8eq.jpg",
+    "voteAverage": 7.2,
+    "genresTmdb": [
+      "Comedy",
+      "Horror"
+    ],
+    "runtimeTmdb": 107,
+    "traktIds": {
+      "imdb": "tt9764362",
+      "plex": {
+        "guid": "5d7770d1b2739400200ea443",
+        "slug": "the-menu-2022"
+      },
+      "slug": "the-menu-2022",
+      "tmdb": 593643,
+      "trakt": 439843
+    },
+    "enrichStatus": "ok",
+    "enrichNotes": "TMDB+OMDb+Trakt",
+    "imdbRating": 7.1,
+    "omdbRating": {
+      "Internet Movie Database": "7.1/10",
+      "Rotten Tomatoes": "88%",
+      "Metacritic": "71/100"
+    },
+    "rated": "R",
+    "themes": [
+      "crime",
+      "food-and-kitchens",
+      "dark-comedy",
+      "revenge",
+      "vacation-setting",
+      "comedy",
+      "scary",
+      "tense",
+      "laughs",
+      "date-friendly"
+    ],
+    "platformsBaked": [
+      "Hulu",
+      "Disney+"
+    ],
+    "whereAsOf": "2026-10-28T15:50:15-04:00",
+    "whereProvider": "watchmode",
+    "watchmodeId": 1583908
+  },
+  {
+    "id": "glass-onion",
+    "name": "Glass Onion",
+    "kind": "movie",
+    "year": 2022,
+    "runtimeMin": 139,
+    "moods": [
+      "funny",
+      "chill",
+      "date"
+    ],
+    "genres": [
+      "Mystery",
+      "Comedy"
+    ],
+    "platforms": [
+      "Netflix"
+    ],
+    "why": "Whodunit candy with a big twist engine.",
+    "tmdbId": 661374,
+    "tmdbMediaType": "movie",
+    "imdbId": "tt11564570",
+    "tmdbTitle": "Glass Onion: A Knives Out Mystery",
+    "tmdbDate": "2022-11-23",
+    "overview": "World-famous detective Benoit Blanc heads to Greece to peel back the layers of a mystery surrounding a tech billionaire and his eclectic crew of friends.",
+    "posterPath": "/vDGr1YdrlfbU9wxTOdpf3zChmv9.jpg",
+    "voteAverage": 7.0,
+    "genresTmdb": [
+      "Comedy",
+      "Crime",
+      "Mystery"
+    ],
+    "runtimeTmdb": 140,
+    "traktIds": {
+      "imdb": "tt11564570",
+      "plex": {
+        "guid": "5e165afd20b9e6003e35a05b",
+        "slug": "glass-onion-2022"
+      },
+      "slug": "glass-onion-a-knives-out-mystery-2022",
+      "tmdb": 661374,
+      "trakt": 495668
+    },
+    "enrichStatus": "ok",
+    "enrichNotes": "TMDB+OMDb+Trakt",
+    "imdbRating": 7.1,
+    "omdbRating": {
+      "Internet Movie Database": "7.1/10",
+      "Rotten Tomatoes": "91%",
+      "Metacritic": "81/100"
+    },
+    "rated": "PG-13",
+    "themes": [
+      "investigation",
+      "dark-comedy",
+      "satire",
+      "franchise",
+      "crime",
+      "wealth-and-class",
+      "whodunit",
+      "comedy",
+      "mystery",
+      "laughs",
+      "easy-watch",
+      "date-friendly"
+    ],
+    "platformsBaked": [
+      "Netflix"
+    ],
+    "whereAsOf": "2026-10-28T15:50:15-04:00",
+    "whereProvider": "watchmode",
+    "watchmodeId": 1596405
+  },
+  {
+    "id": "top-gun-maverick",
+    "name": "Top Gun: Maverick",
+    "kind": "movie",
+    "year": 2022,
+    "runtimeMin": 130,
+    "moods": [
+      "thrill",
+      "feel",
+      "date"
+    ],
+    "genres": [
+      "Action"
+    ],
+    "platforms": [
+      "Netflix",
+      "Paramount+"
+    ],
+    "why": "Pure crowd-pleaser; still hits on a second watch.",
+    "tmdbId": 361743,
+    "tmdbMediaType": "movie",
+    "imdbId": "tt1745960",
+    "tmdbTitle": "Top Gun: Maverick",
+    "tmdbDate": "2022-05-21",
+    "overview": "After more than thirty years of service as one of the Navy’s top aviators, and dodging the advancement in rank that would ground him, Pete “Maverick” Mitchell finds himself training a detachment of TOP GUN graduates for a specialized mission the likes of which no living pilot has ever seen.",
+    "posterPath": "/n0YuM4f5lvGAP6MAW2kBIzugXnc.jpg",
+    "voteAverage": 8.2,
+    "genresTmdb": [
+      "Action",
+      "Drama"
+    ],
+    "runtimeTmdb": 131,
+    "traktIds": {
+      "imdb": "tt1745960",
+      "plex": {
+        "guid": "5d776be17a53e9001e732ab9",
+        "slug": "top-gun-maverick"
+      },
+      "slug": "top-gun-maverick-2022",
+      "tmdb": 361743,
+      "trakt": 297485
+    },
+    "enrichStatus": "ok",
+    "enrichNotes": "TMDB+OMDb+Trakt",
+    "imdbRating": 8.2,
+    "omdbRating": {
+      "Internet Movie Database": "8.2/10",
+      "Rotten Tomatoes": "96%",
+      "Metacritic": "78/100"
+    },
+    "rated": "PG-13",
+    "themes": [
+      "military",
+      "franchise",
+      "war",
+      "action",
+      "tense",
+      "heartfelt",
+      "date-friendly"
+    ],
+    "platformsBaked": [
+      "Paramount+",
+      "Netflix"
+    ],
+    "whereAsOf": "2026-10-28T15:50:15-04:00",
+    "whereProvider": "watchmode",
+    "watchmodeId": 1437213
+  },
+  {
+    "id": "nope",
+    "name": "Nope",
+    "kind": "movie",
+    "year": 2022,
+    "runtimeMin": 130,
+    "moods": [
+      "thrill",
+      "brain"
+    ],
+    "genres": [
+      "Horror",
+      "Sci-Fi"
+    ],
+    "platforms": [
+      "Netflix"
+    ],
+    "why": "Slow dread and spectacle, Peele-style.",
+    "tmdbId": 762504,
+    "tmdbMediaType": "movie",
+    "imdbId": "tt10954984",
+    "tmdbTitle": "Nope",
+    "tmdbDate": "2022-07-20",
+    "overview": "Residents in a lonely gulch of inland California bear witness to an uncanny, chilling discovery.",
+    "posterPath": "/AcKVlWaNVVVFQwro3nLXqPljcYA.jpg",
+    "voteAverage": 6.8,
+    "genresTmdb": [
+      "Horror",
+      "Science Fiction",
+      "Thriller"
+    ],
+    "runtimeTmdb": 130,
+    "traktIds": {
+      "imdb": "tt10954984",
+      "plex": {
+        "guid": "5e16338fbc1372003ea68ab3",
+        "slug": "nope-2022"
+      },
+      "slug": "nope-2022",
+      "tmdb": 762504,
+      "trakt": 601018
+    },
+    "enrichStatus": "ok",
+    "enrichNotes": "TMDB+OMDb+Trakt",
+    "imdbRating": 6.8,
+    "omdbRating": {
+      "Internet Movie Database": "6.8/10",
+      "Rotten Tomatoes": "83%",
+      "Metacritic": "77/100"
+    },
+    "rated": "R",
+    "themes": [
+      "family-drama",
+      "grief-and-loss",
+      "aliens",
+      "scary",
+      "sci-fi",
+      "tense",
+      "thinky"
+    ],
+    "platformsBaked": [
+      "Prime"
+    ],
+    "whereAsOf": "2026-10-28T15:50:15-04:00",
+    "whereProvider": "watchmode",
+    "watchmodeId": 1591366
+  },
+  {
+    "id": "after-yang",
+    "name": "After Yang",
+    "kind": "movie",
+    "year": 2021,
+    "runtimeMin": 96,
+    "moods": [
+      "chill",
+      "feel",
+      "brain"
+    ],
+    "genres": [
+      "Sci-Fi",
+      "Drama"
+    ],
+    "platforms": [
+      "Fandango at Home Free",
+      "Hoopla",
+      "Pluto TV",
+      "Roku Channel",
+      "Tubi",
+      "Xumo Play"
+    ],
+    "why": "Quiet sci-fi about memory and family.",
+    "tmdbId": 585378,
+    "tmdbMediaType": "movie",
+    "imdbId": "tt8633464",
+    "tmdbTitle": "After Yang",
+    "tmdbDate": "2022-03-04",
+    "overview": "When his young daughter's beloved companion — an android named Yang — malfunctions, Jake searches for a way to repair him. In the process, Jake discovers the life that has been passing in front of him, reconnecting with his wife and daughter across a distance he didn't know was there.",
+    "posterPath": "/3dVGTNLLPAx99XZvnFiucPX9cl4.jpg",
+    "voteAverage": 6.4,
+    "genresTmdb": [
+      "Science Fiction",
+      "Drama"
+    ],
+    "runtimeTmdb": 96,
+    "traktIds": {
+      "imdb": "tt8633464",
+      "plex": {
+        "guid": "5d7770c07a53e9001e7aa527",
+        "slug": "after-yang"
+      },
+      "slug": "after-yang-2022",
+      "tmdb": 585378,
+      "trakt": 432804
+    },
+    "enrichStatus": "ok",
+    "enrichNotes": "TMDB+OMDb+Trakt",
+    "imdbRating": 6.6,
+    "omdbRating": {
+      "Internet Movie Database": "6.6/10",
+      "Rotten Tomatoes": "89%",
+      "Metacritic": "78/100"
+    },
+    "rated": "PG",
+    "themes": [
+      "based-on-a-book",
+      "grief-and-loss",
+      "family-drama",
+      "memory-and-identity",
+      "ai-and-robots",
+      "sci-fi",
+      "easy-watch",
+      "heartfelt",
+      "thinky"
+    ],
+    "platformsBaked": [
+      "Prime"
+    ],
+    "whereAsOf": "2026-10-28T15:50:15-04:00",
+    "whereProvider": "watchmode",
+    "watchmodeId": 1565259
+  },
+  {
+    "id": "palm-springs",
+    "name": "Palm Springs",
+    "kind": "movie",
+    "year": 2020,
+    "runtimeMin": 90,
+    "moods": [
+      "funny",
+      "date",
+      "chill"
+    ],
+    "genres": [
+      "Comedy",
+      "Romance"
+    ],
+    "platforms": [
+      "Hulu"
+    ],
+    "why": "Time-loop romance that stays clever and warm.",
+    "tmdbId": 587792,
+    "tmdbMediaType": "movie",
+    "imdbId": "tt9484998",
+    "tmdbTitle": "Palm Springs",
+    "tmdbDate": "2020-07-10",
+    "overview": "When carefree Nyles and reluctant maid of honor Sarah have a chance encounter at a Palm Springs wedding, things get complicated when they find themselves unable to escape the venue, themselves, or each other.",
+    "posterPath": "/gnAfqiV7yO3Jq9IntTmwkcaICqc.jpg",
+    "voteAverage": 7.3,
+    "genresTmdb": [
+      "Comedy",
+      "Romance",
+      "Science Fiction"
+    ],
+    "runtimeTmdb": 90,
+    "traktIds": {
+      "imdb": "tt9484998",
+      "plex": {
+        "guid": "5d7770dd96b655001fea0412",
+        "slug": "palm-springs-2020"
+      },
+      "slug": "palm-springs-2020",
+      "tmdb": 587792,
+      "trakt": 439986
+    },
+    "enrichStatus": "ok",
+    "enrichNotes": "TMDB+OMDb+Trakt",
+    "imdbRating": 7.4,
+    "omdbRating": {
+      "Internet Movie Database": "7.4/10",
+      "Rotten Tomatoes": "95%",
+      "Metacritic": "83/100"
+    },
+    "rated": "R",
+    "themes": [
+      "time-twists",
+      "rom-com",
+      "weddings",
+      "comedy",
+      "romance",
+      "sci-fi",
+      "laughs",
+      "date-friendly",
+      "easy-watch"
+    ],
+    "platformsBaked": [
+      "Hulu",
+      "Disney+"
+    ],
+    "whereAsOf": "2026-10-28T15:50:15-04:00",
+    "whereProvider": "watchmode",
+    "watchmodeId": 1582601
+  },
+  {
+    "id": "the-invisible-man",
+    "name": "The Invisible Man",
+    "kind": "movie",
+    "year": 2020,
+    "runtimeMin": 124,
+    "moods": [
+      "thrill"
+    ],
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "platforms": [
+      "Prime"
+    ],
+    "why": "Tight, modern horror that trusts silence.",
+    "tmdbId": 570670,
+    "tmdbMediaType": "movie",
+    "imdbId": "tt1051906",
+    "tmdbTitle": "The Invisible Man",
+    "tmdbDate": "2020-02-26",
+    "overview": "When Cecilia's abusive ex takes his own life and leaves her his fortune, she suspects his death was a hoax. As a series of coincidences turn lethal, Cecilia works to prove that she is being hunted by someone nobody can see.",
+    "posterPath": "/5EufsDwXdY2CVttYOk2WtYhgKpa.jpg",
+    "voteAverage": 7.1,
+    "genresTmdb": [
+      "Thriller",
+      "Science Fiction",
+      "Horror"
+    ],
+    "runtimeTmdb": 124,
+    "traktIds": {
+      "imdb": "tt1051906",
+      "plex": {
+        "guid": "5d776b987a53e9001e72a749",
+        "slug": "the-invisible-man-2020"
+      },
+      "slug": "the-invisible-man-2020",
+      "tmdb": 570670,
+      "trakt": 428130
+    },
+    "enrichStatus": "ok",
+    "enrichNotes": "TMDB+OMDb+Trakt",
+    "imdbRating": 7.1,
+    "omdbRating": {
+      "Internet Movie Database": "7.1/10",
+      "Metacritic": "72/100"
+    },
+    "rated": "R",
+    "themes": [
+      "based-on-a-book",
+      "stalker-suspense",
+      "crime",
+      "investigation",
+      "sci-fi",
+      "scary",
+      "tense"
+    ],
+    "platformsBaked": [
+      "Prime"
+    ],
+    "whereAsOf": "2026-10-28T15:50:15-04:00",
+    "whereProvider": "watchmode",
+    "watchmodeId": 1540132
+  },
+  {
+    "id": "succession",
+    "name": "Succession",
+    "kind": "show",
+    "year": 2018,
+    "runtimeMin": 60,
+    "moods": [
+      "brain",
+      "funny",
+      "thrill"
+    ],
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "platforms": [
+      "Max"
+    ],
+    "why": "Vicious family politics; rewatchable venom.",
+    "tmdbId": 76331,
+    "tmdbMediaType": "tv",
+    "imdbId": "tt7660850",
+    "tmdbTitle": "Succession",
+    "tmdbDate": "2018-06-03",
+    "overview": "Follow the lives of the Roy family as they contemplate their future once their aging father begins to step back from the media and entertainment conglomerate they control.",
+    "posterPath": "/z0XiwdrCQ9yVIr4O0pxzaAYRxdW.jpg",
+    "voteAverage": 8.3,
+    "genresTmdb": [
+      "Drama",
+      "Comedy"
+    ],
+    "seasonsTmdb": 4,
+    "traktIds": {
+      "imdb": "tt7660850",
+      "plex": {
+        "guid": "5d9c08ed46115600200ade5e",
+        "slug": "succession"
+      },
+      "slug": "succession",
+      "tmdb": 76331,
+      "tvdb": 338186,
+      "trakt": 125479
+    },
+    "enrichStatus": "ok",
+    "enrichNotes": "TMDB+OMDb+Trakt",
+    "imdbRating": 8.8,
+    "omdbRating": {
+      "Internet Movie Database": "8.8/10"
+    },
+    "rated": "TV-MA",
+    "themes": [
+      "family-drama",
+      "wealth-and-class",
+      "family-business",
+      "relationships",
+      "comedy",
+      "thinky",
+      "laughs",
+      "tense"
+    ],
+    "platformsBaked": [
+      "Max"
+    ],
+    "whereAsOf": "2026-10-28T15:50:15-04:00",
+    "whereProvider": "watchmode",
+    "watchmodeId": 3113204
+  },
+  {
+    "id": "the-white-lotus",
+    "name": "The White Lotus",
+    "kind": "show",
+    "year": 2021,
+    "runtimeMin": 60,
+    "moods": [
+      "funny",
+      "thrill",
+      "date"
+    ],
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "platforms": [
+      "Max"
+    ],
+    "why": "Vacation satire with a body count energy.",
+    "tmdbId": 111803,
+    "tmdbMediaType": "tv",
+    "imdbId": "tt13406094",
+    "tmdbTitle": "The White Lotus",
+    "tmdbDate": "2021-07-11",
+    "overview": "Follow the exploits of various guests and employees at an exclusive tropical resort over the span of a week as with each passing day, a darker complexity emerges in these picture-perfect travelers, the hotel’s cheerful employees and the idyllic locale itself.",
+    "posterPath": "/gbSaK9v1CbcYH1ISgbM7XObD2dW.jpg",
+    "voteAverage": 7.6,
+    "genresTmdb": [
+      "Comedy",
+      "Drama",
+      "Mystery"
+    ],
+    "seasonsTmdb": 3,
+    "traktIds": {
+      "imdb": "tt13406094",
+      "plex": {
+        "guid": "5f9075bb583581002d739d91",
+        "slug": "the-white-lotus"
+      },
+      "slug": "the-white-lotus",
+      "tmdb": 111803,
+      "tvdb": 390430,
+      "trakt": 168471
+    },
+    "enrichStatus": "ok",
+    "enrichNotes": "TMDB+OMDb+Trakt",
+    "imdbRating": 8.0,
+    "omdbRating": {
+      "Internet Movie Database": "8.0/10"
+    },
+    "rated": "TV-MA",
+    "themes": [
+      "vacation-setting",
+      "wealth-and-class",
+      "satire",
+      "anthology",
+      "whodunit",
+      "comedy",
+      "mystery",
+      "laughs",
+      "tense",
+      "date-friendly"
+    ],
+    "platformsBaked": [
+      "Max"
+    ],
+    "whereAsOf": "2026-10-28T15:50:15-04:00",
+    "whereProvider": "watchmode",
+    "watchmodeId": 541722
+  },
+  {
+    "id": "ted-lasso",
+    "name": "Ted Lasso",
+    "kind": "show",
+    "year": 2020,
+    "runtimeMin": 30,
+    "moods": [
+      "feel",
+      "funny",
+      "chill"
+    ],
+    "genres": [
+      "Comedy",
+      "Sports"
+    ],
+    "platforms": [
+      "Apple TV+"
+    ],
+    "why": "Earnest comfort TV that still earns its laughs.",
+    "tmdbId": 97546,
+    "tmdbMediaType": "tv",
+    "imdbId": "tt10986410",
+    "tmdbTitle": "Ted Lasso",
+    "tmdbDate": "2020-08-14",
+    "overview": "Ted Lasso, an American football coach, moves to England when he's hired to manage a soccer team—despite having no experience. With cynical players and a doubtful town, will he get them to see the Ted Lasso Way?",
+    "posterPath": "/uRHsiw1wLxPHFXkkv4Ix1s0O6f4.jpg",
+    "voteAverage": 8.4,
+    "genresTmdb": [
+      "Drama",
+      "Comedy"
+    ],
+    "seasonsTmdb": 4,
+    "traktIds": {
+      "imdb": "tt10986410",
+      "plex": {
+        "guid": "5e204251072b9e003ca5c140",
+        "slug": "ted-lasso"
+      },
+      "slug": "ted-lasso",
+      "tmdb": 97546,
+      "tvdb": 383203,
+      "trakt": 162639
+    },
+    "enrichStatus": "ok",
+    "enrichNotes": "TMDB+OMDb+Trakt",
+    "imdbRating": 8.7,
+    "omdbRating": {
+      "Internet Movie Database": "8.7/10"
+    },
+    "rated": "TV-MA",
+    "themes": [
+      "friendship",
+      "fish-out-of-water",
+      "sports",
+      "workplace",
+      "comedy",
+      "heartfelt",
+      "laughs",
+      "easy-watch"
+    ],
+    "platformsBaked": [
+      "Apple TV+"
+    ],
+    "whereAsOf": "2026-10-28T15:50:15-04:00",
+    "whereProvider": "watchmode",
+    "watchmodeId": 3166520
+  },
+  {
+    "id": "fleabag",
+    "name": "Fleabag",
+    "kind": "show",
+    "year": 2016,
+    "runtimeMin": 25,
+    "moods": [
+      "funny",
+      "feel",
+      "date"
+    ],
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "platforms": [
+      "Prime"
+    ],
+    "why": "Short, sharp, and devastatingly funny.",
+    "tmdbId": 67070,
+    "tmdbMediaType": "tv",
+    "imdbId": "tt5687612",
+    "tmdbTitle": "Fleabag",
+    "tmdbDate": "2016-07-21",
+    "overview": "A portrait into the mind of a dry-witted, sexual, angry, porn-watching, grief-riddled woman, trying to make sense of the world. As she hurls herself headlong at modern living, Fleabag is thrown roughly up against the walls of contemporary London, with all its frenetic energy, late nights, and bright lights.",
+    "posterPath": "/vFn0nLPcIggPH5LTWWaJ2hcsGlc.jpg",
+    "voteAverage": 8.3,
+    "genresTmdb": [
+      "Comedy",
+      "Drama"
+    ],
+    "seasonsTmdb": 2,
+    "traktIds": {
+      "imdb": "tt5687612",
+      "plex": {
+        "guid": "5d9c08041cae62001f748e10",
+        "slug": "fleabag"
+      },
+      "slug": "fleabag",
+      "tmdb": 67070,
+      "tvdb": 314614,
+      "trakt": 109975
+    },
+    "enrichStatus": "ok",
+    "enrichNotes": "TMDB+OMDb+Trakt",
+    "imdbRating": 8.7,
+    "omdbRating": {
+      "Internet Movie Database": "8.7/10"
+    },
+    "rated": "TV-MA",
+    "themes": [
+      "female-lead",
+      "family-drama",
+      "grief-and-loss",
+      "dark-comedy",
+      "comedy",
+      "laughs",
+      "heartfelt",
+      "date-friendly"
+    ],
+    "platformsBaked": [
+      "Prime"
+    ],
+    "whereAsOf": "2026-10-28T15:50:15-04:00",
+    "whereProvider": "watchmode",
+    "watchmodeId": 342486
+  },
+  {
+    "id": "dark",
+    "name": "Dark",
+    "kind": "show",
+    "year": 2017,
+    "runtimeMin": 55,
+    "moods": [
+      "brain",
+      "thrill"
+    ],
+    "genres": [
+      "Sci-Fi",
+      "Mystery"
+    ],
+    "platforms": [
+      "Netflix"
+    ],
+    "why": "Time travel puzzle box; bring a notebook.",
+    "tmdbId": 70523,
+    "tmdbMediaType": "tv",
+    "imdbId": "tt5753856",
+    "tmdbTitle": "Dark",
+    "tmdbDate": "2017-12-01",
+    "overview": "A missing child sets four families on a frantic hunt for answers as they unearth a mind-bending mystery that spans three generations.",
+    "posterPath": "/wiiyc3m6HKaQhFBYeuM7ySCNQsG.jpg",
+    "voteAverage": 8.4,
+    "genresTmdb": [
+      "Crime",
+      "Drama",
+      "Sci-Fi & Fantasy",
+      "Mystery"
+    ],
+    "seasonsTmdb": 3,
+    "traktIds": {
+      "imdb": "tt5753856",
+      "plex": {
+        "guid": "5d9c08ccba2e21001f192e95",
+        "slug": "dark"
+      },
+      "slug": "dark",
+      "tmdb": 70523,
+      "tvdb": 334824,
+      "trakt": 123775
+    },
+    "enrichStatus": "ok",
+    "enrichNotes": "TMDB+OMDb+Trakt",
+    "imdbRating": 8.7,
+    "omdbRating": {
+      "Internet Movie Database": "8.7/10"
+    },
+    "rated": "TV-MA",
+    "themes": [
+      "vacation-setting",
+      "investigation",
+      "small-town",
+      "time-twists",
+      "surreal",
+      "crime",
+      "sci-fi",
+      "mystery",
+      "thinky",
+      "tense"
+    ],
+    "platformsBaked": [
+      "Netflix"
+    ],
+    "whereAsOf": "2026-10-28T15:50:15-04:00",
+    "whereProvider": "watchmode",
+    "watchmodeId": 327983
+  },
+  {
+    "id": "atlanta",
+    "name": "Atlanta",
+    "kind": "show",
+    "year": 2016,
+    "runtimeMin": 30,
+    "moods": [
+      "funny",
+      "brain",
+      "chill"
+    ],
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "platforms": [
+      "Hulu"
+    ],
+    "why": "Surreal, funny, and never predictable.",
+    "tmdbId": 65495,
+    "tmdbMediaType": "tv",
+    "imdbId": "tt4288182",
+    "tmdbTitle": "Atlanta",
+    "tmdbDate": "2016-09-06",
+    "overview": "Two cousins work through the Atlanta music scene in order to better their lives and the lives of their families.",
+    "posterPath": "/8HZyGMnPLVVb00rmrh6A2SbK9NX.jpg",
+    "voteAverage": 8.0,
+    "genresTmdb": [
+      "Comedy",
+      "Drama"
+    ],
+    "seasonsTmdb": 4,
+    "traktIds": {
+      "imdb": "tt4288182",
+      "plex": {
+        "guid": "5d9c0817e264b7001fc3bbb1",
+        "slug": "atlanta"
+      },
+      "slug": "atlanta",
+      "tmdb": 65495,
+      "tvdb": 313999,
+      "trakt": 108966
+    },
+    "enrichStatus": "ok",
+    "enrichNotes": "TMDB+OMDb+Trakt",
+    "imdbRating": 8.6,
+    "omdbRating": {
+      "Internet Movie Database": "8.6/10"
+    },
+    "rated": "TV-MA",
+    "themes": [
+      "comedy",
+      "laughs",
+      "thinky",
+      "easy-watch"
+    ],
+    "platformsBaked": [
+      "Hulu",
+      "Disney+"
+    ],
+    "whereAsOf": "2026-10-28T15:50:15-04:00",
+    "whereProvider": "watchmode",
+    "watchmodeId": 39718
+  },
+  {
+    "id": "the-last-of-us",
+    "name": "The Last of Us",
+    "kind": "show",
+    "year": 2023,
+    "runtimeMin": 55,
+    "moods": [
+      "thrill",
+      "feel"
+    ],
+    "genres": [
+      "Drama",
+      "Horror"
+    ],
+    "platforms": [
+      "Max"
+    ],
+    "why": "Character-first apocalypse with real warmth.",
+    "tmdbId": 100088,
+    "tmdbMediaType": "tv",
+    "imdbId": "tt3581920",
+    "tmdbTitle": "The Last of Us",
+    "tmdbDate": "2023-01-15",
+    "overview": "Twenty years after modern civilization has been destroyed, Joel, a hardened survivor, is hired to smuggle Ellie, a 14-year-old girl, out of an oppressive quarantine zone. What starts as a small job soon becomes a brutal, heartbreaking journey, as they both must traverse the United States and depend on each other for survival.",
+    "posterPath": "/dmo6TYuuJgaYinXBPjrgG9mB5od.jpg",
+    "voteAverage": 8.4,
+    "genresTmdb": [
+      "Drama"
+    ],
+    "seasonsTmdb": 2,
+    "traktIds": {
+      "imdb": "tt3581920",
+      "plex": {
+        "guid": "5e69c6f6874db7003e2dd59b",
+        "slug": "the-last-of-us"
+      },
+      "slug": "the-last-of-us",
+      "tmdb": 100088,
+      "tvdb": 392256,
+      "trakt": 158947
+    },
+    "enrichStatus": "ok",
+    "enrichNotes": "TMDB+OMDb+Trakt",
+    "imdbRating": 8.4,
+    "omdbRating": {
+      "Internet Movie Database": "8.4/10"
+    },
+    "rated": "TV-MA",
+    "themes": [
+      "post-apocalyptic",
+      "survival",
+      "video-game-adaptation",
+      "tense",
+      "heartfelt"
+    ],
+    "platformsBaked": [
+      "Max"
+    ],
+    "whereAsOf": "2026-10-28T15:50:15-04:00",
+    "whereProvider": "watchmode",
+    "watchmodeId": 1564613
+  },
+  {
+    "id": "beef",
+    "name": "Beef",
+    "kind": "show",
+    "year": 2023,
+    "runtimeMin": 40,
+    "moods": [
+      "thrill",
+      "feel",
+      "funny"
+    ],
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "platforms": [
+      "Netflix"
+    ],
+    "why": "Road-rage spiral that becomes something deeper.",
+    "tmdbId": 154385,
+    "tmdbMediaType": "tv",
+    "imdbId": "tt14403178",
+    "tmdbTitle": "BEEF",
+    "tmdbDate": "2023-04-06",
+    "overview": "Minor conflicts spiral into consuming feuds between individuals, exposing pride, resentment, and hidden pain.",
+    "posterPath": "/25ih0Xq2zWbxhhKxwhvswKYQyEr.jpg",
+    "voteAverage": 7.8,
+    "genresTmdb": [
+      "Comedy",
+      "Drama"
+    ],
+    "seasonsTmdb": 2,
+    "traktIds": {
+      "imdb": "tt14403178",
+      "plex": {
+        "guid": "61cdd57fcd8c10ae5aca39f4",
+        "slug": "beef-1"
+      },
+      "slug": "beef",
+      "tmdb": 154385,
+      "tvdb": 399838,
+      "trakt": 197667
+    },
+    "enrichStatus": "ok",
+    "enrichNotes": "TMDB+OMDb+Trakt",
+    "imdbRating": 8.0,
+    "omdbRating": {
+      "Internet Movie Database": "8.0/10"
+    },
+    "rated": "TV-MA",
+    "themes": [
+      "relationships",
+      "anthology",
+      "revenge",
+      "dark-comedy",
+      "wealth-and-class",
+      "asian-led",
+      "comedy",
+      "tense",
+      "heartfelt",
+      "laughs"
+    ],
+    "platformsBaked": [
+      "Netflix"
+    ],
+    "whereAsOf": "2026-10-28T15:50:15-04:00",
+    "whereProvider": "watchmode",
+    "watchmodeId": 3183276
+  },
+  {
+    "id": "true-detective-night-country",
+    "name": "True Detective: Night Country",
+    "kind": "show",
+    "year": 2024,
+    "runtimeMin": 60,
+    "moods": [
+      "thrill",
+      "chill"
+    ],
+    "genres": [
+      "Crime",
+      "Horror"
+    ],
+    "platforms": [
+      "Max"
+    ],
+    "why": "Arctic dread and a mystery worth chewing on.",
+    "tmdbId": 46648,
+    "tmdbMediaType": "tv",
+    "imdbId": "tt2356777",
+    "tmdbTitle": "True Detective",
+    "tmdbDate": "2014-01-12",
+    "overview": "An American anthology police detective series utilizing multiple timelines in which investigations seem to unearth personal and professional secrets of those involved, both within or outside the law.",
+    "posterPath": "/cuV2O5ZyDLHSOWzg3nLVljp1ubw.jpg",
+    "voteAverage": 8.3,
+    "genresTmdb": [
+      "Drama",
+      "Mystery"
+    ],
+    "tmdbSeason": 4,
+    "seasonsTmdb": 5,
+    "traktIds": {
+      "imdb": "tt2356777",
+      "plex": {
+        "guid": "5d9c086acb3ffa001f1b49d1",
+        "slug": "true-detective"
+      },
+      "slug": "true-detective",
+      "tmdb": 46648,
+      "tvdb": 270633,
+      "trakt": 46375
+    },
+    "enrichStatus": "ok",
+    "enrichNotes": "mapped to True Detective (2014) show; Night Country = season 4",
+    "imdbRating": 8.8,
+    "omdbRating": {
+      "Internet Movie Database": "8.8/10"
+    },
+    "rated": "TV-MA",
+    "themes": [
+      "big-ideas",
+      "investigation",
+      "anthology",
+      "crime",
+      "time-twists",
+      "whodunit",
+      "mystery",
+      "tense",
+      "easy-watch"
+    ],
+    "platformsBaked": [
+      "Max"
+    ],
+    "whereAsOf": "2026-10-28T15:50:15-04:00",
+    "whereProvider": "watchmode",
+    "watchmodeId": 3135535
+  },
+  {
+    "id": "ripley",
+    "name": "Ripley",
+    "kind": "show",
+    "year": 2024,
+    "runtimeMin": 50,
+    "moods": [
+      "thrill",
+      "brain",
+      "date"
+    ],
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "platforms": [
+      "Netflix"
+    ],
+    "why": "Black-and-white craft with icy tension.",
+    "tmdbId": 94028,
+    "tmdbMediaType": "tv",
+    "imdbId": "tt11016042",
+    "tmdbTitle": "RIPLEY",
+    "tmdbDate": "2024-04-04",
+    "overview": "A grifter in 1960s New York is hired to convince a wealthy man's son to return home from Italy and begins a life of deceit, fraud and murder.",
+    "posterPath": "/rpSo8z9alultGVTqQ3dkLEyU8xx.jpg",
+    "voteAverage": 7.9,
+    "genresTmdb": [
+      "Drama"
+    ],
+    "seasonsTmdb": 1,
+    "traktIds": {
+      "imdb": "tt11016042",
+      "plex": {
+        "guid": "5e160e7c2b8866001e609ba8",
+        "slug": "ripley"
+      },
+      "slug": "ripley",
+      "tmdb": 94028,
+      "tvdb": 372727,
+      "trakt": 155523
+    },
+    "enrichStatus": "ok",
+    "enrichNotes": "TMDB+OMDb+Trakt",
+    "imdbRating": 8.1,
+    "omdbRating": {
+      "Internet Movie Database": "8.1/10"
+    },
+    "rated": "TV-MA",
+    "themes": [
+      "based-on-a-book",
+      "con-artists",
+      "limited-series",
+      "period-piece",
+      "tense",
+      "thinky",
+      "date-friendly"
+    ],
+    "platformsBaked": [
+      "Netflix"
+    ],
+    "whereAsOf": "2026-10-28T15:50:15-04:00",
+    "whereProvider": "watchmode",
+    "watchmodeId": 3164899
+  },
+  {
+    "id": "challengers",
+    "name": "Challengers",
+    "kind": "movie",
+    "year": 2024,
+    "runtimeMin": 131,
+    "moods": [
+      "date",
+      "thrill",
+      "feel"
+    ],
+    "genres": [
+      "Drama",
+      "Sports",
+      "Romance"
+    ],
+    "platforms": [
+      "Paramount+"
+    ],
+    "why": "Sweaty love triangle tennis as psychological warfare.",
+    "tmdbId": 937287,
+    "tmdbMediaType": "movie",
+    "imdbId": "tt16426418",
+    "tmdbTitle": "Challengers",
+    "tmdbDate": "2024-04-18",
+    "overview": "Tennis player turned coach Tashi has taken her husband, Art, and transformed him into a world-famous Major champion. To jolt him out of his recent losing streak, she signs him up for a \"Challenger\" event — close to the lowest level of pro tournament — where he finds himself standing across the net from his former best friend and Tashi's former boyfriend.",
+    "posterPath": "/H6vke7zGiuLsz4v4RPeReb9rsv.jpg",
+    "voteAverage": 6.9,
+    "genresTmdb": [
+      "Drama",
+      "Romance"
+    ],
+    "runtimeTmdb": 132,
+    "traktIds": {
+      "imdb": "tt16426418",
+      "plex": {
+        "guid": "61bd9c29bbaecd52f2fc603b",
+        "slug": "challengers-2024"
+      },
+      "slug": "challengers-2024",
+      "tmdb": 937287,
+      "trakt": 752123
+    },
+    "enrichStatus": "ok",
+    "enrichNotes": "TMDB+OMDb+Trakt",
+    "imdbRating": 7.0,
+    "omdbRating": {
+      "Internet Movie Database": "7.0/10",
+      "Rotten Tomatoes": "88%",
+      "Metacritic": "82/100"
+    },
+    "rated": "R",
+    "themes": [
+      "relationships",
+      "romance",
+      "sports",
+      "rivalry",
+      "friendship",
+      "date-friendly",
+      "tense",
+      "heartfelt"
+    ],
+    "platformsBaked": [
+      "Prime"
+    ],
+    "whereAsOf": "2026-10-28T15:50:15-04:00",
+    "whereProvider": "watchmode",
+    "watchmodeId": 1675817
+  },
+  {
+    "id": "civil-war",
+    "name": "Civil War",
+    "kind": "movie",
+    "year": 2024,
+    "runtimeMin": 109,
+    "moods": [
+      "thrill",
+      "brain"
+    ],
+    "genres": [
+      "Action",
+      "Drama"
+    ],
+    "platforms": [
+      "YouTube"
+    ],
+    "why": "Road thriller with journalistic chill.",
+    "tmdbId": 929590,
+    "tmdbMediaType": "movie",
+    "imdbId": "tt17279496",
+    "tmdbTitle": "Civil War",
+    "tmdbDate": "2024-04-10",
+    "overview": "In the near future, a group of war journalists attempt to survive while reporting the truth as the United States stands on the brink of civil war.",
+    "posterPath": "/sh7Rg8Er3tFcN9BpKIPOMvALgZd.jpg",
+    "voteAverage": 6.8,
+    "genresTmdb": [
+      "War",
+      "Action",
+      "Drama"
+    ],
+    "runtimeTmdb": 109,
+    "traktIds": {
+      "imdb": "tt17279496",
+      "plex": {
+        "guid": "61ed4a5819b0331e2cd45282",
+        "slug": "civil-war-2024"
+      },
+      "slug": "civil-war-2024",
+      "tmdb": 929590,
+      "trakt": 745438
+    },
+    "enrichStatus": "ok",
+    "enrichNotes": "TMDB+OMDb+Trakt",
+    "imdbRating": 7.0,
+    "omdbRating": {
+      "Internet Movie Database": "7.0/10",
+      "Rotten Tomatoes": "81%",
+      "Metacritic": "75/100"
+    },
+    "rated": "R",
+    "themes": [
+      "war",
+      "journalism",
+      "female-lead",
+      "action",
+      "tense",
+      "thinky"
+    ],
+    "platformsBaked": [
+      "Max"
+    ],
+    "whereAsOf": "2026-10-28T15:50:15-04:00",
+    "whereProvider": "watchmode",
+    "watchmodeId": 1674798
+  },
+  {
+    "id": "a-quiet-place-day-one",
+    "name": "A Quiet Place: Day One",
+    "kind": "movie",
+    "year": 2024,
+    "runtimeMin": 99,
+    "moods": [
+      "thrill"
+    ],
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "platforms": [
+      "Netflix",
+      "Prime",
+      "Paramount+",
+      "MGM+"
+    ],
+    "why": "Tight survival thriller with a soft center.",
+    "tmdbId": 762441,
+    "tmdbMediaType": "movie",
+    "imdbId": "tt13433802",
+    "tmdbTitle": "A Quiet Place: Day One",
+    "tmdbDate": "2024-06-26",
+    "overview": "As New York City is invaded by alien creatures who hunt by sound, a woman named Sam fights to survive with her cat.",
+    "posterPath": "/hU42CRk14JuPEdqZG3AWmagiPAP.jpg",
+    "voteAverage": 6.6,
+    "genresTmdb": [
+      "Horror",
+      "Science Fiction",
+      "Thriller"
+    ],
+    "runtimeTmdb": 100,
+    "traktIds": {
+      "imdb": "tt13433802",
+      "plex": {
+        "guid": "5faab9ac50a0c1002de93de0",
+        "slug": "a-quiet-place-day-one"
+      },
+      "slug": "a-quiet-place-day-one-2024",
+      "tmdb": 762441,
+      "trakt": 600962
+    },
+    "enrichStatus": "ok",
+    "enrichNotes": "TMDB+OMDb+Trakt",
+    "imdbRating": 6.2,
+    "omdbRating": {
+      "Internet Movie Database": "6.2/10",
+      "Rotten Tomatoes": "86%",
+      "Metacritic": "68/100"
+    },
+    "rated": "PG-13",
+    "themes": [
+      "aliens",
+      "franchise",
+      "survival",
+      "monsters",
+      "scary",
+      "sci-fi",
+      "tense"
+    ],
+    "platformsBaked": [
+      "Paramount+"
+    ],
+    "whereAsOf": "2026-10-28T15:50:15-04:00",
+    "whereProvider": "watchmode",
+    "watchmodeId": 1636699
+  },
+  {
+    "id": "anyone-but-you",
+    "name": "Anyone But You",
+    "kind": "movie",
+    "year": 2023,
+    "runtimeMin": 103,
+    "moods": [
+      "funny",
+      "date",
+      "chill"
+    ],
+    "genres": [
+      "Romance",
+      "Comedy"
+    ],
+    "platforms": [
+      "Hulu",
+      "Max"
+    ],
+    "why": "Easy rom-com energy when you want zero homework.",
+    "tmdbId": 1072790,
+    "tmdbMediaType": "movie",
+    "imdbId": "tt26047818",
+    "tmdbTitle": "Anyone but You",
+    "tmdbDate": "2023-12-21",
+    "overview": "After an amazing first date, Bea and Ben’s fiery attraction turns ice cold — until they find themselves unexpectedly reunited at a destination wedding in Australia. So they do what any two mature adults would do: pretend to be a couple.",
+    "posterPath": "/5qHoazZiaLe7oFBok7XlUhg96f2.jpg",
+    "voteAverage": 6.7,
+    "genresTmdb": [
+      "Romance",
+      "Comedy"
+    ],
+    "runtimeTmdb": 103,
+    "traktIds": {
+      "imdb": "tt26047818",
+      "plex": {
+        "guid": "63c1de1d977f24b2a7a3b914",
+        "slug": "anyone-but-you-2023"
+      },
+      "slug": "anyone-but-you-2023",
+      "tmdb": 1072790,
+      "trakt": 862395
+    },
+    "enrichStatus": "ok",
+    "enrichNotes": "TMDB+OMDb+Trakt",
+    "imdbRating": 6.1,
+    "omdbRating": {
+      "Internet Movie Database": "6.1/10",
+      "Rotten Tomatoes": "53%",
+      "Metacritic": "52/100"
+    },
+    "rated": "R",
+    "themes": [
+      "rom-com",
+      "vacation-setting",
+      "weddings",
+      "romance",
+      "comedy",
+      "laughs",
+      "date-friendly",
+      "easy-watch"
+    ],
+    "platformsBaked": [
+      "Netflix"
+    ],
+    "whereAsOf": "2026-10-28T15:50:15-04:00",
+    "whereProvider": "watchmode",
+    "watchmodeId": 1714971
+  },
+  {
+    "id": "hit-man",
+    "name": "Hit Man",
+    "kind": "movie",
+    "year": 2023,
+    "runtimeMin": 115,
+    "moods": [
+      "funny",
+      "date",
+      "chill"
+    ],
+    "genres": [
+      "Comedy",
+      "Romance",
+      "Crime"
+    ],
+    "platforms": [
+      "Netflix"
+    ],
+    "why": "Linklater charm meets fake-assassin farce.",
+    "tmdbId": 974635,
+    "tmdbMediaType": "movie",
+    "imdbId": "tt20215968",
+    "tmdbTitle": "Hit Man",
+    "tmdbDate": "2024-05-16",
+    "overview": "A mild-mannered professor moonlighting as a fake hit man in police stings ignites a chain reaction of trouble when he falls for a potential client.",
+    "posterPath": "/oil3EZwKFp3CWxZnfGfGglesvm9.jpg",
+    "voteAverage": 6.8,
+    "genresTmdb": [
+      "Comedy",
+      "Romance",
+      "Crime"
+    ],
+    "runtimeTmdb": 116,
+    "traktIds": {
+      "imdb": "tt20215968",
+      "plex": {
+        "guid": "6284c9b20c3c1976fd08647d",
+        "slug": "hit-man-2024"
+      },
+      "slug": "hit-man-2024",
+      "tmdb": 974635,
+      "trakt": 783039
+    },
+    "enrichStatus": "ok",
+    "enrichNotes": "Linklater film; TMDB date 2024-05-16 (festival 2023)",
+    "imdbRating": 6.8,
+    "omdbRating": {
+      "Internet Movie Database": "6.8/10",
+      "Rotten Tomatoes": "95%",
+      "Metacritic": "82/100"
+    },
+    "rated": "R",
+    "themes": [
+      "crime-caper",
+      "memory-and-identity",
+      "rom-com",
+      "con-artists",
+      "comedy",
+      "romance",
+      "crime",
+      "laughs",
+      "date-friendly",
+      "easy-watch"
+    ],
+    "platformsBaked": [
+      "Netflix"
+    ],
+    "whereAsOf": "2026-10-28T15:50:15-04:00",
+    "whereProvider": "watchmode",
+    "watchmodeId": 1690084
+  },
+  {
+    "id": "maxxxine",
+    "name": "MaXXXine",
+    "kind": "movie",
+    "year": 2024,
+    "runtimeMin": 104,
+    "moods": [
+      "thrill",
+      "funny"
+    ],
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "platforms": [
+      "Hulu",
+      "Max",
+      "Prime",
+      "Fandango at Home Free",
+      "Hoopla",
+      "Plex",
+      "Pluto TV",
+      "Roku Channel",
+      "Tubi",
+      "Xumo Play"
+    ],
+    "why": "80s Hollywood sleaze with neon menace.",
+    "tmdbId": 1023922,
+    "tmdbMediaType": "movie",
+    "imdbId": "tt22048412",
+    "tmdbTitle": "MaXXXine",
+    "tmdbDate": "2024-07-04",
+    "overview": "In 1980s Hollywood, adult film star and aspiring actress Maxine Minx finally gets her big break. But as a mysterious killer stalks the starlets of Hollywood, a trail of blood threatens to reveal her sinister past.",
+    "posterPath": "/ArvoFK6nlouZRxYmtIOUzKIrg90.jpg",
+    "voteAverage": 6.2,
+    "genresTmdb": [
+      "Horror"
+    ],
+    "runtimeTmdb": 103,
+    "traktIds": {
+      "imdb": "tt22048412",
+      "plex": {
+        "guid": "632225cb2743e08c99e49cd7",
+        "slug": "maxxxine-2024"
+      },
+      "slug": "maxxxine-2024",
+      "tmdb": 1023922,
+      "trakt": 823073
+    },
+    "enrichStatus": "ok",
+    "enrichNotes": "TMDB+OMDb+Trakt; SFW review: R-rated, adult-industry premise + gore",
+    "imdbRating": 6.2,
+    "omdbRating": {
+      "Internet Movie Database": "6.2/10",
+      "Rotten Tomatoes": "73%",
+      "Metacritic": "64/100"
+    },
+    "rated": "R",
+    "themes": [
+      "franchise",
+      "crime",
+      "slasher",
+      "showbiz",
+      "whodunit",
+      "stalker-suspense",
+      "family-drama",
+      "scary",
+      "tense",
+      "laughs"
+    ],
+    "platformsBaked": [
+      "Prime"
+    ],
+    "whereAsOf": "2026-10-28T15:50:15-04:00",
+    "whereProvider": "watchmode",
+    "watchmodeId": 1693109
+  },
+  {
+    "id": "inside-out-2",
+    "name": "Inside Out 2",
+    "kind": "movie",
+    "year": 2024,
+    "runtimeMin": 96,
+    "moods": [
+      "feel",
+      "funny",
+      "chill"
+    ],
+    "genres": [
+      "Animation",
+      "Family"
+    ],
+    "platforms": [
+      "Disney+"
+    ],
+    "why": "Emotionally sharp and easy to share.",
+    "tmdbId": 1022789,
+    "tmdbMediaType": "movie",
+    "imdbId": "tt22022452",
+    "tmdbTitle": "Inside Out 2",
+    "tmdbDate": "2024-06-11",
+    "overview": "Teenager Riley's mind headquarters is undergoing a sudden demolition to make room for something entirely unexpected: new Emotions! Joy, Sadness, Anger, Fear and Disgust, who’ve long been running a successful operation by all accounts, aren’t sure how to feel when Anxiety shows up. And it looks like she’s not alone.",
+    "posterPath": "/vpnVM9B6NMmQpWeZvzLvDESb2QY.jpg",
+    "voteAverage": 7.5,
+    "genresTmdb": [
+      "Animation",
+      "Adventure",
+      "Comedy",
+      "Family"
+    ],
+    "runtimeTmdb": 97,
+    "traktIds": {
+      "imdb": "tt22022452",
+      "plex": {
+        "guid": "631bfefb0667a4eded0d5b66",
+        "slug": "inside-out-2-2024-1"
+      },
+      "slug": "inside-out-2-2024",
+      "tmdb": 1022789,
+      "trakt": 822464
+    },
+    "enrichStatus": "ok",
+    "enrichNotes": "TMDB+OMDb+Trakt",
+    "imdbRating": 7.5,
+    "omdbRating": {
+      "Internet Movie Database": "7.5/10",
+      "Rotten Tomatoes": "91%",
+      "Metacritic": "73/100"
+    },
+    "rated": "PG",
+    "themes": [
+      "franchise",
+      "coming-of-age",
+      "emotions",
+      "animated",
+      "comedy",
+      "family-friendly",
+      "heartfelt",
+      "laughs",
+      "easy-watch"
+    ],
+    "platformsBaked": [
+      "Disney+"
+    ],
+    "whereAsOf": "2026-10-28T15:50:15-04:00",
+    "whereProvider": "watchmode",
+    "watchmodeId": 1692869
+  }
+]
