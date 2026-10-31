@@ -1,0 +1,130 @@
+{
+  "packs": [
+    {
+      "id": "cozy-sunday",
+      "title": "Cozy Sunday",
+      "blurb": "Warm, low-stakes comfort for a slow day on the couch.",
+      "titleIds": [
+        "abbott-elementary",
+        "ted-lasso",
+        "the-holdovers",
+        "only-murders-in-the-building",
+        "reservation-dogs",
+        "inside-out-2",
+        "after-yang",
+        "past-lives"
+      ]
+    },
+    {
+      "id": "date-night",
+      "title": "Date night",
+      "blurb": "Charming, talk-about-it-after picks for two.",
+      "titleIds": [
+        "past-lives",
+        "palm-springs",
+        "anyone-but-you",
+        "hit-man",
+        "glass-onion",
+        "the-menu",
+        "poor-things",
+        "challengers",
+        "barbie"
+      ]
+    },
+    {
+      "id": "brain-food",
+      "title": "Brain food",
+      "blurb": "Puzzles, ideas, and stories that reward attention.",
+      "titleIds": [
+        "severance",
+        "dark",
+        "oppenheimer",
+        "anatomy-of-a-fall",
+        "succession",
+        "after-yang",
+        "everything-everywhere-all-at-once",
+        "killers-of-the-flower-moon"
+      ]
+    },
+    {
+      "id": "one-more-episode",
+      "title": "One more episode",
+      "blurb": "Series built on cliffhangers and momentum.",
+      "titleIds": [
+        "the-bear",
+        "severance",
+        "slow-horses",
+        "the-night-agent",
+        "shogun",
+        "fallout",
+        "the-last-of-us",
+        "beef",
+        "ripley"
+      ]
+    },
+    {
+      "id": "big-screen",
+      "title": "Big screen energy",
+      "blurb": "Spectacle worth the biggest screen and loudest speakers you have.",
+      "titleIds": [
+        "dune-part-two",
+        "top-gun-maverick",
+        "godzilla-minus-one",
+        "spider-man-across-the-spider-verse",
+        "oppenheimer",
+        "nope",
+        "civil-war"
+      ]
+    },
+    {
+      "id": "laugh-reset",
+      "title": "Laugh reset",
+      "blurb": "Reliable laughs when the day needs undoing.",
+      "titleIds": [
+        "what-we-do-in-the-shadows",
+        "abbott-elementary",
+        "hacks",
+        "fleabag",
+        "only-murders-in-the-building",
+        "atlanta",
+        "barbie",
+        "palm-springs",
+        "glass-onion"
+      ]
+    },
+    {
+      "id": "slow-burn",
+      "title": "Slow burn",
+      "blurb": "Patient tension that builds and lingers.",
+      "titleIds": [
+        "killers-of-the-flower-moon",
+        "ripley",
+        "true-detective-night-country",
+        "past-lives",
+        "anatomy-of-a-fall",
+        "nope",
+        "shogun",
+        "the-invisible-man"
+      ]
+    },
+    {
+      "id": "short-sweet",
+      "title": "Short & sweet",
+      "blurb": "Episodes of 30 minutes or less and films under 100 minutes.",
+      "titleIds": [
+        "abbott-elementary",
+        "what-we-do-in-the-shadows",
+        "fleabag",
+        "ted-lasso",
+        "atlanta",
+        "the-bear",
+        "hacks",
+        "palm-springs",
+        "after-yang",
+        "inside-out-2"
+      ]
+    }
+  ],
+  "count": 8,
+  "source": "Watch Picker Theme Spin SFW be3af70d + v1 Spin f07d8ad3"
+}

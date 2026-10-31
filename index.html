@@ -1,0 +1,352 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Watch Picker (SFW)</title>
+<style>
+:root{--bg:#0f1115;--card:#181b22;--line:#2a2f3a;--fg:#e8eaf0;--mut:#9aa3b2;--acc:#ffb547;--ok:#4cc38a;--warn:#e5737a}
+*{box-sizing:border-box}
+body{margin:0;font:15px/1.45 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:var(--bg);color:var(--fg)}
+header{position:sticky;top:0;z-index:5;background:#0f1115ee;backdrop-filter:blur(6px);border-bottom:1px solid var(--line);padding:10px 16px;display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+h1{font-size:18px;margin:0 12px 0 0}
+nav button,.btn{background:var(--card);color:var(--fg);border:1px solid var(--line);border-radius:999px;padding:6px 14px;cursor:pointer;font:inherit}
+nav button.on{background:var(--acc);color:#111;border-color:var(--acc);font-weight:600}
+.btn:hover,nav button:hover{border-color:var(--acc)}
+.sp{flex:1}
+small,.mut{color:var(--mut)}
+main{max-width:1200px;margin:0 auto;padding:16px}
+.bar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:14px}
+select,input[type=search]{background:var(--card);color:var(--fg);border:1px solid var(--line);border-radius:8px;padding:6px 10px;font:inherit}
+.chip{display:inline-block;border:1px solid var(--line);border-radius:999px;padding:3px 10px;cursor:pointer;user-select:none;font-size:13px}
+.chip.on{background:var(--acc);color:#111;border-color:var(--acc)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden;display:flex;flex-direction:column}
+.card.seen{opacity:.45}
+.card img{width:100%;aspect-ratio:2/3;object-fit:cover;background:#222}
+.body{padding:10px 12px;display:flex;flex-direction:column;gap:6px;flex:1}
+.t{font-weight:600}
+.meta{font-size:12px;color:var(--mut)}
+.badges{display:flex;flex-wrap:wrap;gap:4px}
+.b{font-size:11px;padding:2px 7px;border-radius:6px;background:#233;border:1px solid #2f4b4b;color:#bfe}
+.b.free{background:#232f22;border-color:#3d5a37;color:#cfe8c3}
+.b.none{background:#3a2326;border-color:#5a3338;color:#f3c0c4}
+.why{font-size:13px}
+.reasons{font-size:12px;color:var(--mut);margin:0;padding-left:16px}
+.row{display:flex;gap:6px;margin-top:auto}
+.row .btn{padding:4px 10px;font-size:12px}
+.pack{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin-bottom:18px}
+.pack h3{margin:0 0 2px}
+.spin{text-align:center;padding:20px 0}
+.spin .big{max-width:340px;margin:16px auto}
+.seeds{display:flex;flex-wrap:wrap;gap:6px;margin:6px 0 14px}
+.score{font-size:12px;color:var(--acc);font-weight:600}
+#toast{position:fixed;bottom:18px;left:50%;transform:translateX(-50%);background:#222;border:1px solid var(--line);padding:8px 14px;border-radius:8px;opacity:0;transition:.2s;pointer-events:none}
+#toast.show{opacity:1}
+footer{max-width:1200px;margin:0 auto;padding:16px;color:var(--mut);font-size:12px}
+.hidden{display:none!important}
+textarea{width:100%;min-height:90px;background:var(--bg);color:var(--fg);border:1px solid var(--line);border-radius:8px;padding:8px;font:13px/1.4 ui-monospace,Menlo,monospace}
+.imp{display:flex;flex-direction:column;gap:8px}
+.ok{color:var(--ok)}.bad{color:var(--warn)}
+details ul{margin:6px 0;padding-left:18px;font-size:13px}
+</style>
+</head>
+<body>
+<header>
+  <h1>🍿 Watch Picker</h1>
+  <nav id="tabs">
+    <button data-mode="discover" class="on">Discover</button>
+    <button data-mode="packs">Packs</button>
+    <button data-mode="spin">Random spin</button>
+    <button data-mode="byl">Because you liked…</button>
+    <button data-mode="list">My list</button>
+  </nav>
+  <span class="sp"></span>
+  <label class="mut"><input type="checkbox" id="hideSeen"> Hide seen</label>
+  <span class="mut" id="seenCount"></span>
+  <button class="btn" id="btnExport">Export</button>
+  <button class="btn" id="btnImport">Import JSON</button>
+  <input type="file" id="fileImport" accept="application/json,.json" class="hidden">
+</header>
+<main>
+  <section id="filters" class="bar">
+    <input type="search" id="q" placeholder="Search title, overview, why…" size="26">
+    <select id="kind"><option value="">Any kind</option><option value="movie">Movies</option><option value="show">Shows</option></select>
+    <select id="len"><option value="">Any length</option><option value="short">Short (≤45 min)</option><option value="mid">Medium (46–110)</option><option value="long">Long (&gt;110)</option></select>
+    <select id="genre"><option value="">Any genre</option></select>
+    <select id="plat"><option value="">Any service</option></select>
+    <span id="moods"></span>
+    <button class="btn" id="clear">Clear</button>
+  </section>
+  <section id="view"></section>
+</main>
+<footer id="foot"></footer>
+<div id="toast"></div>
+<script>
+const SEEN_KEY='sfwWatchPicker.seen.v1', HIDE_KEY='sfwWatchPicker.hideSeen', LIST_KEY='sfwWatchPicker.list.v1', UNM_KEY='sfwWatchPicker.unmatched.v1';
+const MOOD_LABEL={feel:'💛 Feel-good',funny:'😂 Funny',thrill:'⚡ Thrill',brain:'🧠 Brainy',date:'💞 Date',chill:'🛋 Chill'};
+const FREE=/free|pluto|tubi|roku|xumo|plex|hoopla|youtube/i;
+// Mood/genre-derived theme tags excluded from theme overlap (from byl.py)
+const MOODTAG=new Set(['franchise','based-on-a-book','sci-fi','scary','animated','family-friendly','period-piece','mystery','crime','romance','comedy','war','action','heartfelt','laughs','thinky','tense','easy-watch','date-friendly']);
+let CAT=[],BY={},PACKS=[],ASOF=null,mode='discover';
+const F={q:'',kind:'',len:'',genre:'',plat:'',moods:new Set()};
+let seen=loadSeen(), seeds=[], myList=loadJSON(LIST_KEY,{}), unmatched=loadJSON(UNM_KEY,[]), lastImport='';
+const $=s=>document.querySelector(s);
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+function toast(m){const t=$('#toast');t.textContent=m;t.classList.add('show');clearTimeout(t._h);t._h=setTimeout(()=>t.classList.remove('show'),1800)}
+function loadSeen(){try{const o=JSON.parse(localStorage.getItem(SEEN_KEY));if(o&&typeof o==='object')return o}catch(e){}return {}}
+function loadJSON(k,dflt){try{const o=JSON.parse(localStorage.getItem(k));if(o&&typeof o===typeof dflt&&Array.isArray(o)===Array.isArray(dflt))return o}catch(e){}return dflt}
+function saveList(){try{localStorage.setItem(LIST_KEY,JSON.stringify(myList));localStorage.setItem(UNM_KEY,JSON.stringify(unmatched))}catch(e){toast('Save failed: '+e.message)}}
+function saveSeen(){try{localStorage.setItem(SEEN_KEY,JSON.stringify(seen))}catch(e){toast('Save failed: '+e.message)}updSeenCount()}
+function updSeenCount(){$('#seenCount').textContent=Object.keys(seen).length+' seen'}
+const mins=c=>c.kind==='movie'?(c.runtimeTmdb||c.runtimeMin):c.runtimeMin;
+function lenBucket(c){const m=mins(c)||0;return m<=45?'short':m<=110?'mid':'long'}
+function fmtAsOf(s){if(!s)return'';const d=new Date(s);return isNaN(d)?s:d.toLocaleString('en-US',{month:'short',day:'numeric',year:'numeric',hour:'numeric',minute:'2-digit',timeZone:'America/New_York'})+' ET'}
+
+function badges(c){
+  const p=c.platforms||[];
+  if(!p.length)return '<span class="b none">Rent / buy only</span>';
+  return p.map(x=>`<span class="b${FREE.test(x)?' free':''}">${esc(x)}</span>`).join('');
+}
+function card(c,extra=''){
+  const s=!!seen[c.id];
+  const poster=c.posterPath?`<img loading="lazy" alt="" src="https://image.tmdb.org/t/p/w342${esc(c.posterPath)}">`:'';
+  const len=c.kind==='show'?`~${mins(c)} min eps${c.seasonsTmdb?' · '+c.seasonsTmdb+' seasons':''}`:`${mins(c)} min`;
+  const rating=c.imdbRating?` · IMDb ${c.imdbRating}`:(c.voteAverage?` · TMDB ${c.voteAverage}`:'');
+  return `<div class="card${s?' seen':''}" data-id="${esc(c.id)}">${poster}<div class="body">
+    <div class="t">${esc(c.name)} <small>(${c.year})</small></div>
+    <div class="meta">${c.kind==='show'?'Show':'Movie'} · ${len}${rating}${c.rated?' · '+esc(c.rated):''}</div>
+    <div class="meta">${(c.genres||[]).map(esc).join(' · ')} — ${(c.moods||[]).map(m=>MOOD_LABEL[m]||m).join(' ')}</div>
+    <div class="badges">${badges(c)}</div>
+    <div class="why">${esc(c.why||'')}</div>${extra}
+    <div class="row"><button class="btn act-seen">${s?'✓ Seen':'Mark seen'}</button>
+    <button class="btn act-list">${myList[c.id]?'✓ On list':'＋ My list'}</button>
+    <button class="btn act-seed">＋ Seed BYL</button></div></div></div>`;
+}
+function visible(list){return $('#hideSeen').checked?list.filter(c=>!seen[c.id]):list}
+function filtered(){
+  const q=F.q.toLowerCase();
+  return visible(CAT.filter(c=>
+    (!F.kind||c.kind===F.kind)&&(!F.len||lenBucket(c)===F.len)&&(!F.genre||(c.genres||[]).includes(F.genre))&&
+    (!F.plat||(F.plat==='__none'?!(c.platforms||[]).length:(c.platforms||[]).includes(F.plat)))&&
+    [...F.moods].every(m=>(c.moods||[]).includes(m))&&
+    (!q||[c.name,c.overview,c.why,(c.genres||[]).join(' '),(c.themes||[]).join(' ')].join(' ').toLowerCase().includes(q))));
+}
+
+// ---- BYL (port of byl.py) ----
+function scoreByl(seedIds,c){
+  const S=seedIds.map(i=>BY[i]);let s=0;const why=[];
+  const U=f=>new Set(S.flatMap(f));
+  const sth=U(x=>(x.themes||[]).filter(t=>!MOODTAG.has(t))), sg=U(x=>x.genresTmdb||x.genres||[]), sm=U(x=>x.moods||[]);
+  const th=(c.themes||[]).filter(t=>!MOODTAG.has(t)&&sth.has(t)).sort();
+  const g=(c.genresTmdb||c.genres||[]).filter(x=>sg.has(x)).sort();
+  const m=(c.moods||[]).filter(x=>sm.has(x)).sort();
+  s+=3*th.length+2*g.length+1.2*m.length;
+  if(th.length)why.push('Shared themes: '+th.slice(0,4).join(', '));
+  if(g.length)why.push('Same genres: '+g.slice(0,3).join(', '));
+  if(m.length)why.push('Matches mood: '+m.map(x=>MOOD_LABEL[x]||x).join(' '));
+  if(S.some(x=>x.kind===c.kind)){s+=1;why.push(`Also a ${c.kind} (${c.kind==='show'?'~'+mins(c)+' min eps':mins(c)+' min'})`)}
+  const sv=S.reduce((a,x)=>a+(x.voteAverage||0),0)/S.length;
+  if(c.voteAverage&&Math.abs(c.voteAverage-sv)<=0.4){s+=0.5;why.push(`Similar audience score (TMDB ${c.voteAverage} vs ${sv.toFixed(1)})`)}
+  if(c.imdbRating>=8){s+=0.3;why.push(`Highly rated (IMDb ${c.imdbRating})`)}
+  return {score:Math.round(s*10)/10,why};
+}
+
+// ---- CSV import (IMDb / Letterboxd / generic title,year / one title per line) ----
+function parseCSV(text){
+  text=String(text).replace(/^﻿/,'');
+  const first=text.split(/\r?\n/,1)[0];
+  const d=[',','\t',';'].map(c=>[c,first.split(c).length]).sort((a,b)=>b[1]-a[1])[0][0];
+  const rows=[];let row=[],f='',q=false;
+  for(let i=0;i<text.length;i++){
+    const ch=text[i];
+    if(q){if(ch==='"'){if(text[i+1]==='"'){f+='"';i++}else q=false}else f+=ch}
+    else if(ch==='"'&&f==='')q=true;
+    else if(ch===d){row.push(f);f=''}
+    else if(ch==='\n'||ch==='\r'){if(ch==='\r'&&text[i+1]==='\n')i++;row.push(f);rows.push(row);row=[];f=''}
+    else f+=ch;
+  }
+  if(f!==''||row.length){row.push(f);rows.push(row)}
+  return rows.map(r=>r.map(x=>x.trim())).filter(r=>r.some(Boolean));
+}
+const COLS={title:['title','name','film','movie','show','series','primary title','original title'],
+  year:['year','release year','release_year','startyear'],date:['release date','release_date'],
+  imdb:['const','imdb id','imdb_id','imdbid','imdb','tconst'],tmdb:['tmdb id','tmdb_id','tmdbid','tmdb']};
+function csvEntries(rows){
+  if(!rows.length)return [];
+  const h=rows[0].map(x=>x.toLowerCase());
+  const col=k=>{for(const n of COLS[k]){const i=h.indexOf(n);if(i>=0)return i}return -1};
+  const C={title:col('title'),year:col('year'),date:col('date'),imdb:col('imdb'),tmdb:col('tmdb')};
+  const header=C.title>=0||C.imdb>=0||C.tmdb>=0;
+  if(!header){C.title=0;C.year=rows.every(r=>!r[1]||/^\d{4}$/.test(r[1]))?1:-1}
+  return (header?rows.slice(1):rows).map(r=>{
+    let title=C.title>=0?r[C.title]||'':'', year=C.year>=0?parseInt(r[C.year],10):NaN;
+    const ym=title.match(/^(.*?)\s*\((\d{4})\)\s*$/);if(ym){title=ym[1];if(isNaN(year))year=+ym[2]}
+    if(isNaN(year)&&C.date>=0)year=parseInt((r[C.date]||'').slice(0,4),10);
+    const imdb=((C.imdb>=0?r[C.imdb]:'')||r.join(' ')).match(/tt\d{7,10}/)?.[0]||'';
+    const tmdb=C.tmdb>=0?(r[C.tmdb]||'').replace(/\D/g,''):'';
+    return {title,year:isNaN(year)?null:year,imdb,tmdb};
+  }).filter(e=>e.title||e.imdb||e.tmdb);
+}
+const norm=s=>String(s||'').normalize('NFKD').replace(/[̀-ͯ]/g,'').toLowerCase().replace(/&/g,' and ').replace(/[^a-z0-9]+/g,' ').trim().replace(/^(the|a|an) /,'');
+let IDX=null;
+function buildIdx(){
+  IDX={imdb:{},tmdb:{},name:{}};
+  const add=(m,k,c)=>{if(!k)return;(m[k]=m[k]||[]);if(!m[k].includes(c))m[k].push(c)};
+  for(const c of CAT){
+    if(c.imdbId)IDX.imdb[c.imdbId]=c; add(IDX.tmdb,String(c.tmdbId||''),c);
+    for(const n of [c.name,c.tmdbTitle]){add(IDX.name,norm(n),c);if(n&&n.includes(':'))add(IDX.name,norm(n.split(':')[0]),c)}
+  }
+}
+function matchEntry(e){
+  if(e.imdb&&IDX.imdb[e.imdb])return {c:IDX.imdb[e.imdb]};
+  const t=e.tmdb&&IDX.tmdb[e.tmdb];if(t&&t.length===1)return {c:t[0]};
+  const n=norm(e.title);
+  let cs=IDX.name[n]||(e.title.includes(':')&&IDX.name[norm(e.title.split(':')[0])])||[];
+  if(!cs.length)return {why:e.title?'not in catalog':'no title'};
+  if(e.year){const exact=cs.filter(c=>c.year===e.year);cs=exact.length?exact:cs.filter(c=>Math.abs(c.year-e.year)<=1);if(!cs.length)return {why:'year differs from catalog'}}
+  return cs.length===1?{c:cs[0]}:{why:'ambiguous title'};
+}
+function importEntries(list,target){
+  if(!IDX)buildIdx();
+  const now=new Date().toISOString();let added=0,dupe=0;const miss=[];
+  for(const e of list){
+    const m=matchEntry(e);
+    if(!m.c){miss.push({...e,why:m.why});continue}
+    const store=target==='seen'?seen:myList;
+    if(store[m.c.id]){dupe++;continue}
+    store[m.c.id]=target==='seen'?{at:now,name:m.c.name}:{at:now};added++;
+  }
+  if(target==='list'){
+    const key=e=>e.title?norm(e.title)+'|'+(e.year||''):e.imdb||e.tmdb;const have=new Set(unmatched.map(key));
+    for(const e of miss)if(!have.has(key(e))){unmatched.push(e);have.add(key(e))}
+  }
+  if(target==='seen')saveSeen();saveList();
+  return {added,dupe,miss,total:list.length};
+}
+function rematch(){
+  if(!unmatched.length)return 0;
+  buildIdx();let n=0;
+  unmatched=unmatched.filter(e=>{const m=matchEntry(e);if(!m.c)return true;if(!myList[m.c.id]){myList[m.c.id]={at:new Date().toISOString()};n++}return false});
+  saveList();return n;
+}
+
+// ---- render ----
+function render(){
+  document.querySelectorAll('#tabs button').forEach(b=>b.classList.toggle('on',b.dataset.mode===mode));
+  $('#filters').classList.toggle('hidden',mode!=='discover');
+  const v=$('#view');
+  if(mode==='discover'){
+    const list=filtered();
+    v.innerHTML=`<p class="mut">${list.length} of ${CAT.length} titles</p><div class="grid">${list.map(c=>card(c)).join('')||'<p class="mut">Nothing matches — loosen a filter.</p>'}</div>`;
+  }else if(mode==='packs'){
+    v.innerHTML=PACKS.map(p=>{const items=visible(p.titleIds.map(i=>BY[i]).filter(Boolean));
+      return `<div class="pack"><h3>${esc(p.title)}</h3><p class="mut">${esc(p.blurb||'')} <button class="btn spin-pack" data-pack="${esc(p.id)}">🎲 Spin this pack</button></p><div class="grid">${items.map(c=>card(c)).join('')}</div></div>`}).join('');
+  }else if(mode==='spin'){
+    v.innerHTML=`<div class="spin"><div class="bar" style="justify-content:center">
+      <select id="spinPool"><option value="">Whole catalog</option>${PACKS.map(p=>`<option value="${esc(p.id)}">${esc(p.title)}</option>`).join('')}<option value="__filters">Current Discover filters</option><option value="__list">My list</option></select>
+      <select id="spinKind"><option value="">Any kind</option><option value="movie">Movie</option><option value="show">Show</option></select>
+      <button class="btn" id="doSpin" style="background:var(--acc);color:#111;font-weight:600">🎲 Spin</button></div>
+      <div id="spinOut" class="big"></div><p class="mut" id="spinNote"></p></div>`;
+    $('#doSpin').onclick=()=>spin($('#spinPool').value,$('#spinKind').value);
+  }else if(mode==='byl'){
+    const opts=CAT.slice().sort((a,b)=>a.name.localeCompare(b.name)).map(c=>`<option value="${esc(c.id)}">${esc(c.name)} (${c.year})</option>`).join('');
+    let html=`<div class="bar"><select id="seedSel"><option value="">Add a title you liked…</option>${opts}</select><span class="mut">Pick 1–3 seeds</span></div>
+      <div class="seeds">${seeds.map(i=>`<span class="chip on" data-rm="${esc(i)}">${esc(BY[i].name)} ✕</span>`).join('')||'<span class="mut">No seeds yet.</span>'}</div>`;
+    if(seeds.length){
+      const res=visible(CAT.filter(c=>!seeds.includes(c.id))).map(c=>({c,...scoreByl(seeds,c)})).sort((a,b)=>b.score-a.score||(b.c.voteAverage||0)-(a.c.voteAverage||0)).slice(0,8);
+      html+=`<div class="grid">${res.map(r=>card(r.c,`<div class="score">Match ${r.score}</div><ul class="reasons">${r.why.map(w=>`<li>${esc(w)}</li>`).join('')}</ul>`)).join('')}</div>`;
+    }
+    v.innerHTML=html;
+    $('#seedSel').onchange=e=>{const id=e.target.value;if(!id)return;if(seeds.includes(id))return toast('Already a seed');if(seeds.length>=3)return toast('Max 3 seeds');seeds.push(id);render()};
+  }else if(mode==='list'){
+    const items=visible(Object.keys(myList).filter(i=>BY[i]).sort((a,b)=>(myList[b].at||'').localeCompare(myList[a].at||'')).map(i=>BY[i]));
+    const total=Object.keys(myList).filter(i=>BY[i]).length;
+    v.innerHTML=`<div class="pack imp"><h3>Import a list</h3>
+      <p class="mut">CSV from IMDb (ratings/watchlist), Letterboxd (watched/watchlist/ratings), any sheet with a title + year column, or just one title per line. Matching runs on IMDb id, then TMDB id, then title + year. Everything stays in this browser.</p>
+      <input type="file" id="csvFile" accept=".csv,.tsv,.txt,text/csv,text/plain">
+      <textarea id="csvText" placeholder="…or paste here, e.g.&#10;Severance&#10;The Holdovers (2023)&#10;tt14452776"></textarea>
+      <div class="bar" style="margin:0"><select id="csvTarget"><option value="list">Add to My list</option><option value="seen">Mark as Seen</option></select>
+      <button class="btn" id="csvGo" style="background:var(--acc);color:#111;font-weight:600">Import</button></div>
+      <div id="impOut">${lastImport}</div></div>
+      <div class="bar"><b>${total} on your list</b>${total?' <button class="btn" id="spinList">🎲 Spin my list</button> <button class="btn" id="clearList">Clear list</button>':''}</div>
+      <div class="grid">${items.map(c=>card(c)).join('')||'<p class="mut">Nothing here yet. Import a CSV or hit ＋ My list on any title.</p>'}</div>
+      ${unmatched.length?`<details class="pack"><summary>${unmatched.length} imported title${unmatched.length===1?'':'s'} not in the catalog yet (re-checked whenever the catalog updates)</summary><ul>${unmatched.map(e=>`<li>${esc(e.title||e.imdb||e.tmdb)}${e.year?' ('+e.year+')':''} <span class="mut">— ${esc(e.why)}</span></li>`).join('')}</ul><button class="btn" id="clearUnm">Forget these</button></details>`:''}`;
+    $('#csvGo').onclick=async()=>{
+      const f=$('#csvFile').files[0];
+      const entries=[f?await f.text():'',$('#csvText').value].filter(x=>x.trim()).flatMap(x=>csvEntries(parseCSV(x)));
+      if(!entries.length)return toast('Nothing to import');
+      const target=$('#csvTarget').value, r=importEntries(entries,target);
+      lastImport=`<p><span class="ok">${r.added} added${target==='seen'?' to Seen':''}</span> · ${r.dupe} already there · <span class="${r.miss.length?'bad':''}">${r.miss.length} not matched</span> <span class="mut">(of ${r.total} rows)</span></p>`;
+      render();toast(`Imported ${r.added} title${r.added===1?'':'s'}`);
+    };
+    if(total){$('#spinList').onclick=()=>{mode='spin';render();$('#spinPool').value='__list';spin('__list','')};
+      $('#clearList').onclick=()=>{if(!confirm('Clear your list?'))return;myList={};saveList();render()}}
+    if(unmatched.length)$('#clearUnm').onclick=()=>{unmatched=[];saveList();render()};
+  }
+}
+function spin(pool,kind){
+  let list=pool==='__filters'?filtered():pool==='__list'?Object.keys(myList).map(i=>BY[i]).filter(Boolean):pool?(PACKS.find(p=>p.id===pool)?.titleIds||[]).map(i=>BY[i]).filter(Boolean):CAT;
+  list=visible(list).filter(c=>!kind||c.kind===kind);
+  if(!list.length){$('#spinOut').innerHTML='';$('#spinNote').textContent='Nothing left to spin (everything seen?).';return}
+  const c=list[Math.floor(Math.random()*list.length)];
+  $('#spinOut').innerHTML=`<div class="grid" style="grid-template-columns:1fr">${card(c)}</div>`;
+  $('#spinNote').textContent=`Picked from ${list.length} title${list.length>1?'s':''}.`;
+}
+
+// ---- events ----
+document.addEventListener('click',e=>{
+  const t=e.target, cd=t.closest('.card'), id=cd&&cd.dataset.id;
+  if(t.matches('#tabs button')){mode=t.dataset.mode;render();return}
+  if(t.classList.contains('act-seen')&&id){if(seen[id])delete seen[id];else seen[id]={at:new Date().toISOString(),name:BY[id].name};saveSeen();
+    if(mode==='spin'){cd.classList.toggle('seen',!!seen[id]);t.textContent=seen[id]?'✓ Seen':'Mark seen'}else render();return}
+  if(t.classList.contains('act-list')&&id){if(myList[id])delete myList[id];else myList[id]={at:new Date().toISOString()};saveList();
+    if(mode==='list')render();else t.textContent=myList[id]?'✓ On list':'＋ My list';return}
+  if(t.classList.contains('act-seed')&&id){if(!seeds.includes(id)){if(seeds.length>=3)seeds.shift();seeds.push(id)}mode='byl';render();window.scrollTo(0,0);return}
+  if(t.dataset.rm){seeds=seeds.filter(x=>x!==t.dataset.rm);render();return}
+  if(t.classList.contains('spin-pack')){const p=t.dataset.pack;mode='spin';render();$('#spinPool').value=p;spin(p,'');return}
+  if(t.dataset.mood){const m=t.dataset.mood;F.moods.has(m)?F.moods.delete(m):F.moods.add(m);t.classList.toggle('on');render();return}
+});
+$('#q').oninput=e=>{F.q=e.target.value;render()};
+['kind','len','genre','plat'].forEach(k=>$('#'+k).onchange=e=>{F[k]=e.target.value;render()});
+$('#clear').onclick=()=>{F.q=F.kind=F.len=F.genre=F.plat='';F.moods.clear();['q','kind','len','genre','plat'].forEach(k=>$('#'+k).value='');document.querySelectorAll('[data-mood]').forEach(x=>x.classList.remove('on'));render()};
+$('#hideSeen').checked=localStorage.getItem(HIDE_KEY)==='1';
+$('#hideSeen').onchange=e=>{localStorage.setItem(HIDE_KEY,e.target.checked?'1':'0');render()};
+$('#btnExport').onclick=()=>{
+  const blob=new Blob([JSON.stringify({app:'sfw-watch-picker',version:2,exportedAt:new Date().toISOString(),seen,list:myList,unmatched},null,2)],{type:'application/json'});
+  const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='watch-picker-data.json';a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000);
+};
+$('#btnImport').onclick=()=>$('#fileImport').click();
+$('#fileImport').onchange=async e=>{
+  const f=e.target.files[0];if(!f)return;
+  try{const o=JSON.parse(await f.text());let src=o.seen??o;let n=0;
+    if(Array.isArray(src))src=Object.fromEntries(src.map(i=>[i,{at:new Date().toISOString()}]));
+    for(const [k,v] of Object.entries(src||{}))if(BY[k]&&!seen[k]){seen[k]=typeof v==='object'&&v?v:{at:new Date().toISOString()};n++}
+    let l=0;if(o.list&&typeof o.list==='object')for(const [k,v] of Object.entries(o.list))if(BY[k]&&!myList[k]){myList[k]=typeof v==='object'&&v?v:{at:new Date().toISOString()};l++}
+    if(Array.isArray(o.unmatched)){const have=new Set(unmatched.map(e=>JSON.stringify(e)));for(const e of o.unmatched)if(e&&typeof e==='object'&&!have.has(JSON.stringify(e)))unmatched.push(e)}
+    saveSeen();saveList();rematch();render();toast(`Imported ${n} seen, ${l} list title${l===1?'':'s'}`)}
+  catch(err){toast('Import failed: '+err.message)}
+  e.target.value='';
+};
+
+// ---- boot ----
+(async()=>{
+  try{
+    const [cat,packs]=await Promise.all([fetch('./catalog-with-where.json').then(r=>r.json()),fetch('./mood-packs.json').then(r=>r.json())]);
+    CAT=Array.isArray(cat)?cat:(cat.titles||cat.items||[]);BY=Object.fromEntries(CAT.map(c=>[c.id,c]));
+    PACKS=(packs.packs||packs||[]).map(p=>({...p,titleIds:p.titleIds||p.ids||[]}));
+    ASOF=CAT.map(c=>c.whereAsOf).filter(Boolean).sort().pop()||null;
+  }catch(e){$('#view').innerHTML=`<p class="mut">Couldn't load catalog JSON (${esc(e.message)}). Open via a local server: <code>python3 -m http.server</code> in this folder.</p>`;return}
+  const genres=[...new Set(CAT.flatMap(c=>c.genres||[]))].sort();
+  $('#genre').innerHTML+=genres.map(g=>`<option>${esc(g)}</option>`).join('');
+  const plats=[...new Set(CAT.flatMap(c=>c.platforms||[]))].sort();
+  $('#plat').innerHTML+=plats.map(p=>`<option>${esc(p)}</option>`).join('')+'<option value="__none">Rent / buy only</option>';
+  const moods=[...new Set(CAT.flatMap(c=>c.moods||[]))];
+  $('#moods').innerHTML=moods.map(m=>`<span class="chip" data-mood="${esc(m)}">${MOOD_LABEL[m]||esc(m)}</span>`).join(' ');
+  $('#foot').innerHTML=`${CAT.length} titles · Where: ${esc(CAT[0]?.whereProvider||'baked')} US${ASOF?' as of '+esc(fmtAsOf(ASOF)):''} · Subscription &amp; free streaming only (pay-TV omitted) · Seen + My list stay in this browser (localStorage). Posters: TMDB.`;
+  buildIdx();const rm=rematch();if(rm)toast(`${rm} saved title${rm===1?'':'s'} now in the catalog → added to My list`);
+  updSeenCount();render();
+})();
+</script>
+</body>
+</html>
