@@ -45,6 +45,9 @@ select,input[type=search]{background:var(--card);color:var(--fg);border:1px soli
 #toast{position:fixed;bottom:18px;left:50%;transform:translateX(-50%);background:#222;border:1px solid var(--line);padding:8px 14px;border-radius:8px;opacity:0;transition:.2s;pointer-events:none}
 #toast.show{opacity:1}
 footer{max-width:1200px;margin:0 auto;padding:16px;color:var(--mut);font-size:12px}
+footer a{color:inherit}
+.credits{display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px;margin-top:8px}
+.credits img{height:10px;width:auto;display:block}
 .hidden{display:none!important}
 textarea{width:100%;min-height:90px;background:var(--bg);color:var(--fg);border:1px solid var(--line);border-radius:8px;padding:8px;font:13px/1.4 ui-monospace,Menlo,monospace}
 .imp{display:flex;flex-direction:column;gap:8px}
@@ -81,7 +84,14 @@ details ul{margin:6px 0;padding-left:18px;font-size:13px}
   </section>
   <section id="view"></section>
 </main>
-<footer id="foot"></footer>
+<footer><div id="foot"></div>
+  <div class="credits">
+    <a href="https://www.themoviedb.org/" target="_blank" rel="noopener" title="The Movie Database"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2aWV3Qm94PSIwIDAgMjczLjQyIDM1LjUyIj48ZGVmcz48c3R5bGU+LmNscy0xe2ZpbGw6dXJsKCNsaW5lYXItZ3JhZGllbnQpO308L3N0eWxlPjxsaW5lYXJHcmFkaWVudCBpZD0ibGluZWFyLWdyYWRpZW50IiB5MT0iMTcuNzYiIHgyPSIyNzMuNDIiIHkyPSIxNy43NiIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iIzkwY2VhMSIvPjxzdG9wIG9mZnNldD0iMC41NiIgc3RvcC1jb2xvcj0iIzNjYmVjOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzAwYjNlNSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjx0aXRsZT5Bc3NldCAzPC90aXRsZT48ZyBpZD0iTGF5ZXJfMiIgZGF0YS1uYW1lPSJMYXllciAyIj48ZyBpZD0iTGF5ZXJfMS0yIiBkYXRhLW5hbWU9IkxheWVyIDEiPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTE5MS44NSwzNS4zN2g2My45QTE3LjY3LDE3LjY3LDAsMCwwLDI3My40MiwxNy43aDBBMTcuNjcsMTcuNjcsMCwwLDAsMjU1Ljc1LDBoLTYzLjlBMTcuNjcsMTcuNjcsMCwwLDAsMTc0LjE4LDE3LjdoMEExNy42NywxNy42NywwLDAsMCwxOTEuODUsMzUuMzdaTTEwLjEsMzUuNDJoNy44VjYuOTJIMjhWMEgwdjYuOUgxMC4xWm0yOC4xLDBINDZWOC4yNWguMUw1NS4wNSwzNS40aDZMNzAuMyw4LjI1aC4xVjM1LjRoNy44VjBINjYuNDVsLTguMiwyMy4xaC0uMUw1MCwwSDM4LjJaTTg5LjE0LjEyaDExLjdhMzMuNTYsMzMuNTYsMCwwLDEsOC4wOCwxLDE4LjUyLDE4LjUyLDAsMCwxLDYuNjcsMy4wOCwxNS4wOSwxNS4wOSwwLDAsMSw0LjUzLDUuNTIsMTguNSwxOC41LDAsMCwxLDEuNjcsOC4yNSwxNi45MSwxNi45MSwwLDAsMS0xLjYyLDcuNTgsMTYuMywxNi4zLDAsMCwxLTQuMzgsNS41LDE5LjI0LDE5LjI0LDAsMCwxLTYuMzUsMy4zNywyNC41MywyNC41MywwLDAsMS03LjU1LDEuMTVIODkuMTRabTcuOCwyOC4yaDRhMjEuNjYsMjEuNjYsMCwwLDAsNS0uNTVBMTAuNTgsMTAuNTgsMCwwLDAsMTEwLDI2YTguNzMsOC43MywwLDAsMCwyLjY4LTMuMzUsMTEuOSwxMS45LDAsMCwwLDEtNS4wOCw5Ljg3LDkuODcsMCwwLDAtMS00LjUyLDkuMTcsOS4xNywwLDAsMC0yLjYzLTMuMThBMTEuNjEsMTEuNjEsMCwwLDAsMTA2LjIyLDhhMTcuMDYsMTcuMDYsMCwwLDAtNC42OC0uNjNoLTQuNlpNMTMzLjA5LjEyaDEzLjJhMzIuODcsMzIuODcsMCwwLDEsNC42My4zMywxMi42NiwxMi42NiwwLDAsMSw0LjE3LDEuMyw3Ljk0LDcuOTQsMCwwLDEsMywyLjcyLDguMzQsOC4zNCwwLDAsMSwxLjE1LDQuNjUsNy40OCw3LjQ4LDAsMCwxLTEuNjcsNSw5LjEzLDkuMTMsMCwwLDEtNC40MywyLjgyVjE3YTEwLjI4LDEwLjI4LDAsMCwxLDMuMTgsMSw4LjUxLDguNTEsMCwwLDEsMi40NSwxLjg1LDcuNzksNy43OSwwLDAsMSwxLjU3LDIuNjIsOS4xNiw5LjE2LDAsMCwxLC41NSwzLjIsOC41Miw4LjUyLDAsMCwxLTEuMiw0LjY4LDkuMzIsOS4zMiwwLDAsMS0zLjEsM0ExMy4zOCwxMy4zOCwwLDAsMSwxNTIuMzIsMzVhMjIuNSwyMi41LDAsMCwxLTQuNzMuNWgtMTQuNVptNy44LDE0LjE1aDUuNjVhNy42NSw3LjY1LDAsMCwwLDEuNzgtLjIsNC43OCw0Ljc4LDAsMCwwLDEuNTctLjY1LDMuNDMsMy40MywwLDAsMCwxLjEzLTEuMiwzLjYzLDMuNjMsMCwwLDAsLjQyLTEuOEEzLjMsMy4zLDAsMCwwLDE1MSw4LjZhMy40MiwzLjQyLDAsMCwwLTEuMjMtMS4xM0E2LjA3LDYuMDcsMCwwLDAsMTQ4LDYuOWE5LjksOS45LDAsMCwwLTEuODUtLjE4aC01LjNabTAsMTQuNjVoN2E4LjI3LDguMjcsMCwwLDAsMS44My0uMiw0LjY3LDQuNjcsMCwwLDAsMS42Ny0uNywzLjkzLDMuOTMsMCwwLDAsMS4yMy0xLjMsMy44LDMuOCwwLDAsMCwuNDctMS45NSwzLjE2LDMuMTYsMCwwLDAtLjYyLTIsNCw0LDAsMCwwLTEuNTgtMS4xOCw4LjIzLDguMjMsMCwwLDAtMi0uNTUsMTUuMTIsMTUuMTIsMCwwLDAtMi4wNS0uMTVoLTUuOVoiLz48L2c+PC9nPjwvc3ZnPg==" alt="TMDB"></a>
+    <span>This product uses the TMDB API but is not endorsed or certified by TMDB.</span>
+    <span>Streaming availability by <a href="https://www.watchmode.com/" target="_blank" rel="noopener">Watchmode</a>.</span>
+    <span>Ratings via the <a href="https://www.omdbapi.com/" target="_blank" rel="noopener">OMDb API</a> (<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>).</span>
+  </div>
+</footer>
 <div id="toast"></div>
 <script>
 const SEEN_KEY='sfwWatchPicker.seen.v1', HIDE_KEY='sfwWatchPicker.hideSeen', LIST_KEY='sfwWatchPicker.list.v1', UNM_KEY='sfwWatchPicker.unmatched.v1';
@@ -351,7 +361,7 @@ $('#fileImport').onchange=async e=>{
   $('#plat').innerHTML+=(LIB?'<option value="__home">▶ On my server</option><option value="__away">Not on my server</option>':'')+plats.map(p=>`<option>${esc(p)}</option>`).join('')+'<option value="__none">Rent / buy only</option>';
   const moods=[...new Set(CAT.flatMap(c=>c.moods||[]))];
   $('#moods').innerHTML=moods.map(m=>`<span class="chip" data-mood="${esc(m)}">${MOOD_LABEL[m]||esc(m)}</span>`).join(' ');
-  $('#foot').innerHTML=`${CAT.length} titles · ${LIB?`On my server: ${CAT.filter(c=>onServer(c.id)).length} (${esc(LIB.server)}${LIB.asOf?', '+esc(fmtAsOf(LIB.asOf)):''}) · `:''}Where: ${esc(CAT[0]?.whereProvider||'baked')} US${ASOF?' as of '+esc(fmtAsOf(ASOF)):''} · Subscription &amp; free streaming only (pay-TV omitted) · Seen + My list stay in this browser (localStorage). Posters: TMDB.`;
+  $('#foot').innerHTML=`${CAT.length} titles · ${LIB?`On my server: ${CAT.filter(c=>onServer(c.id)).length} (${esc(LIB.server)}${LIB.asOf?', '+esc(fmtAsOf(LIB.asOf)):''}) · `:''}Where: ${esc(CAT[0]?.whereProvider||'baked')} US${ASOF?' as of '+esc(fmtAsOf(ASOF)):''} · Subscription &amp; free streaming only (pay-TV omitted) · Seen + My list stay in this browser (localStorage).`;
   buildIdx();const rm=rematch();if(rm)toast(`${rm} saved title${rm===1?'':'s'} now in the catalog → added to My list`);
   updSeenCount();render();
 })();
