@@ -13,7 +13,7 @@ The source lives in the private repo [thiccolasscage/its-popcorn-time](https://g
 | `catalog-with-where.json` | `docs/catalog-with-where.json` |
 | `mood-packs.json` | `docs/mood-packs.json` |
 
-Copied from its-popcorn-time @ `be44536`.
+Copied from its-popcorn-time @ `ff432bc`.
 
 `.nojekyll` tells Pages to serve the files as-is.
 
